@@ -11,6 +11,7 @@ There are already quite a number of frameworks out there. I myself have worked w
 5. In the case of Rails, mobility of the app is really low. You cannot expect things to just work simply by copy-pasting the code.
 
 Features:
+
 1. ActiveRecord pattern for models.
 2. Javascript compressing tool.
 3. Sass / Scss
