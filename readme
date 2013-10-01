@@ -1,0 +1,10 @@
+Connect to ssh:
+wn ssh
+
+Opens a file that lists all cron jobs, which you can use to create, edit, and delete crons:
+crontab -e
+
+Running the cron every 3 minutes:
+*/3 * * * * php /var/rapp/kiookioo/app/crons/base.php kiookioo.com
+
+base.php will run other crons.

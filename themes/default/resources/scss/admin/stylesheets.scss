@@ -1,0 +1,131 @@
+@import 'compass';
+
+
+@import "bootstrap/_bootstrap";
+//@import "bootstrap/_bootstrap-responsive.min";
+@import "bootstrap/_bootstrap-fileupload";
+@import "jquery/_jquery-ui-1.9.1.custom.min";
+@import "epiechart/_jquery.easy-pie-chart";
+@import "fullcalendar/_fullcalendar";
+@import "pnotify/_jquery.pnotify.default";
+@import "fancybox/_jquery.fancybox";
+@import "uniform/_uniform";
+@import "select/_select";
+@import "tagsinput/_jquery.tagsinput";
+@import "multiselect/_multiselect";
+@import "jbreadcrumb/_BreadCrumb";
+@import "validation/_validationEngine.jquery";
+@import "stepywizard/_jquery.stepy";
+@import "mcustomscrollbar/_mCustomScrollbar";
+@import "media/_mediaelementplayer.min";
+@import "cleditor/_cleditor";
+@import "shbrush/_shCoreDefault";
+@import "shbrush/_shThemeDefault";
+@import "filetree/_jqueryFileTree";
+@import "../../js/plugins/plupload/jquery.plupload.queue/css/jquery.plupload.queue";
+@import "../../js/plugins/timepicker/timepicker";
+@import "slidernav/_slidernav";
+@import "isotope/_isotope";
+@import "jnotes/_jnotes";
+@import "jcrop/_jquery.Jcrop";
+@import "ibutton/_jquery.ibutton";
+@import "icons";
+@import "styling";
+@import "stylesheet";
+@import "mystyles";
+
+html { height: 100%; }
+body { min-height: 100%; font-family: 'Helvetica Neue','Helvetica',Arial,sans-serif; font-size: 11px; position: relative; background: url('../../images/admin/backgrounds/bg_default.jpg') left top repeat;}
+
+
+/*~Smartphones (portrait and landscape)~*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {    
+    .block, .block-fluid{ overflow: hidden; overflow-x: scroll; }
+    .errorContainer{width: 319px; margin-top: 50px;}
+        .errorContainer h1{font-size: 110px;}
+        .errorContainer h2{font-size: 16px;}
+        
+    /* timeline */
+    .timeline{background-position: 10px 10px;}
+    .timeline .event{padding-left: 50px;}
+    .timeline .event .icon{left: 2px;}
+    .timeline .event .date{display: none;}    
+    .timeline .event .body .text.video{width: 140px !important; height: 80px !important;}
+    .timeline .event .body .text.map{width: 140px !important; height: 100px !important;}                
+    /* eof timeline */
+    
+    .popup{position: static;}
+    .popup.active .body{right: 10px; top: 45px;}
+        .popup.active .body .arrow{display: none;}
+        
+    .toolbar-fluid .information .item .rates .title{font-size: 14px;}            
+}
+
+/*~Smartphones (landscape)~*/
+@media only screen and (min-width : 321px) {
+    
+}
+
+/*~Smartphones (portrait)~*/
+@media only screen and (max-width : 320px) {
+    .errorContainer{width: 319px; margin-top: 50px;}
+        .errorContainer h1{font-size: 110px;}
+        .errorContainer h2{font-size: 16px;}    
+    
+    /* timeline */
+    .timeline{background-position: 10px 10px;}
+    .timeline .event{padding-left: 50px;}
+    .timeline .event .icon{left: 2px;}
+    .timeline .event .date{display: none;}    
+    .timeline .event .body .text.video{width: 140px !important; height: 80px !important;}
+    .timeline .event .body .text.map{width: 140px !important; height: 100px !important;}                
+    /* eof timeline */
+    
+    .popup{position: static;}
+    .popup.active .body{right: 10px; top: 45px;}
+        .popup.active .body .arrow{display: none;}
+        
+    .toolbar-fluid .information .item .rates .title{font-size: 14px;}
+}
+
+/*~Bootstrap fix~*/
+@media only screen and (max-width: 767px) {
+    body{padding: 0px;}
+    .block, .block-fluid{ overflow: hidden; overflow-x: auto; }
+    .video{padding-top: 0;}    
+        .errorContainer{width: 319px; margin-top: 50px;}
+        .errorContainer h1{font-size: 110px;}
+        .errorContainer h2{font-size: 16px;}    
+     
+    /* timeline */
+    .timeline .event .body .text.video{width: 200px; height: 113px;}
+    .timeline .event .body .text.map{width: 200px; height: 150px;}            
+    /* eof timeline */
+    .toolbar .right{float: left; clear: both; margin-top: 5px; text-align: left !important; width: 100%;}
+    .toolbar .left{width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* timeline */
+    .timeline .event .body .text.video{width: 300px; height: 169px;}
+    .timeline .event .body .text.map{width: 300px; height: 200px;}    
+    /* eof timeline */
+}
+/*~iPads (portrait and landscape)~*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    
+}
+
+/*~ ~*/
+@media only screen and (max-width : 1025px) {
+    .fc-header-right{display: none;}
+    .footer .left{display: none;}
+}
+
+/*~Desktops and laptops~*/
+@media only screen and (min-width : 1025px) {
+    /* timeline */
+    .timeline .event .body .text.video{width: 400px; height: 225px;}
+    .timeline .event .body .text.map{width: 400px; height: 300px;}
+    /* eof timeline */
+}
+

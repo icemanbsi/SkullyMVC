@@ -1,0 +1,40 @@
+.dropdown{
+  width: 100px;
+  position: relative;
+  @include gradient2;
+  @include borderRadius(3px);
+  border: solid thin $borderColor5;
+  color: $color1;
+
+  &> a{
+    display: block;
+    padding: 1px 10px;
+    background: url('../images/downArrow.png') no-repeat 95%;
+    color: $color1;
+
+    &+ ul{
+      display: none;
+      float: left;
+      position: absolute;
+      z-index: 1000;
+      width: 100%;
+      background: $bg4;
+      border: solid thin $borderColor5;
+	  max-height: 150px;
+	  overflow: auto;
+
+      li{
+        a{
+          padding: 2px 10px;
+          display: block;
+          color: $color1;
+		  cursor: pointer;
+
+          &:hover{
+            background: $bg1;
+          }
+        }
+      }
+    }
+  }
+}
