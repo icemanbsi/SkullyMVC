@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Trio Design (trio@tgitriodesign.com).
+ * Created by Jay from Trio Design (jay@tgitriodesign.com).
  * Date: 2/27/13
  * Time: 9:24 AM
  * Description: This is the base of all controllers. Responsible for setting up user sessions etc.
@@ -235,7 +235,7 @@ class BaseController {
 		$this->smarty()->assign(array(
 			'isLogin' => false,
 			'baseUrl' => app()->config('baseUrl'),
-			'themeUrl' => app()->config('baseUrl').'themes/'.app()->config('theme').'/',
+			'themeUrl' => app()->themeUrl(),
 			'xmlLang' => app()->xmlLang,
 			'language' => app()->language,
 			'clientConfig' => app()->clientConfig(),
@@ -243,9 +243,5 @@ class BaseController {
 			'currentUrl' => app()->helper("UrlHelper")->prepareUrl($_GET["_url"]),
 			'pageTab' => 0
 		));
-	}
-
-	public function notFound(){
-		$this->aRedirect(app()->config('baseUrl')."404.html");
 	}
 }

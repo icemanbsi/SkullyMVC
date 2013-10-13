@@ -5,23 +5,7 @@
 // Require main app
 // require_once(dirname(__FILE__) . '/../../index.php');
 define("BASE_PATH", realpath(dirname(__FILE__)) . '/../../');
-if (strpos(BASE_PATH, 'rapp/kiookioo') !== false) {
-	$serverName = 'kiookioo.com';
-}
-else {
-	$serverName = 'localhost';
-}
-$session_id = session_id();
-session_start();
-mb_internal_encoding("UTF-8");
-
-// We are going to drop our dispatch file in here
-require(BASE_PATH . 'bootstrap.php');
-include(BASE_PATH . 'shared/config/config.php');
-include(BASE_PATH . 'shared/config/commonConfig.php');
-dispatch($config, $clientAndServerConfig);
-
-
+include('configure.php');
 // Find and initialize Composer
 $composer_found = false;
 $php53 = version_compare(PHP_VERSION, '5.3.2', '>=');

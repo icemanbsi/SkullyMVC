@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Trio Design (trio@tgitriodesign.com).
+ * Created by Jay from Trio Design (jay@tgitriodesign.com).
  * Date: 2/27/13
  * Time: 10:38 AM
  * Description: Url-related helpers
@@ -12,7 +12,7 @@ class UrlHelper extends BaseHelper
 {
 	// Takes a path and parameters, returns url based from the mapping
 	// If path is null, get current page's url instead.
-	public function url($path = null, $parameters = array(), $isFb=false, $isPageTab=0) {
+	public function url($path = null, $parameters = array()) {
 		if ($path == null) {
 			$pageURL = 'http';
 			if (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
@@ -48,13 +48,8 @@ class UrlHelper extends BaseHelper
 						foreach($pars as $param){
 							$temp = substr($param, 1);
 							if(isset($parameters[$temp])){
-								// Special cases:
-								if ($path == 'campaigns/view' && $temp == 'id' && !empty($parameters[$temp])) {
-									$campaign = \App\Models\Campaign::model()->findById($parameters[$temp]);
-									if (!empty($campaign)) {
-										$parameters[$temp] = str_replace(' ', '-', substr(strtolower($campaign->attributes['title']), 0, 30)).'-'.$campaign->attributes['id'];
-									}
-								}
+								// Put URL special cases here, for example if you need to replace spaces with dash
+
 								// Special cases END
 								$answer = str_replace($param, $parameters[$temp], $answer);
 								unset($parameters[$temp]);
@@ -64,11 +59,7 @@ class UrlHelper extends BaseHelper
 				}
 			}
 
-			if($isPageTab){
-				$parameters["pagetab"] = $isPageTab;
-			}
-
-			return app()->config(($isFb ? 'facebookAppUrl' : 'baseUrl')). $answer.(!empty($parameters)?"?".http_build_query($parameters):'');
+			return app()->config('baseUrl').$answer.(!empty($parameters)?"?".http_build_query($parameters):'');
 		}
 	}
 

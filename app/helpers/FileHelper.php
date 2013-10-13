@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by TrioDesign (trio@tgitriodesign.com).
+ * Created by Jay from TrioDesign (trio@tgitriodesign.com).
  * User: Bobby Stenly Irawan
  * Date: 4/30/13
  * Time: 5:47 PM
@@ -131,61 +131,5 @@ class FileHelper
 			$photoData['url'] = $fileUrl;
 		}
 		return $photoData;
-	}
-
-	// Copy image from cache dir
-	// Todo: Not needed, delete?
-	public function saveImageFromCache($data) {
-		$now = time();
-		$content = array(
-//					"photoId" => $photo["id"],
-			"title" => $data["title"],
-			"description" => $data["description"]
-		);
-		$entry = new \App\Models\CampaignEntry\CampaignEntryPhoto(
-			array(
-				"userId" => $user->attributes["id"],
-				"campaignId" => $data["id"],
-				"createdAt" => $now,
-				"updatedAt" => $now,
-				"score" => 0,
-//						"content" => json_encode($content),
-				"winningStatus" => \App\Models\CampaignEntry::WINNINGSTATUS_NONE
-			)
-			, true);
-		$entry->save();
-
-		//move the image from cache to permanent location
-		if(!file_exists(BASE_PATH . 'images/entries/' . $entry->attributes["id"])){
-			$oldmask = umask(0);
-			mkdir(BASE_PATH . 'images/entries/' . $entry->attributes["id"], 0777, true);
-			umask($oldmask);
-		}
-		$content["photoUrl"] = 'images/entries/' . $entry->attributes["id"] . '/' . $savedPhoto["fileName"];
-		copy(app()->config("imagecachesPath") . $savedPhoto["fileName"], BASE_PATH . $content["photoUrl"]);
-		app()->helper("FileHelper")->remove(app()->config("imagecachesPath") . $savedPhoto["fileName"]);
-
-		$entry->attributes["content"] = json_encode($content);
-		$entry->save();
-
-
-		//post to FB
-		$campaign = \App\Models\Campaign::model()->findById($data["id"]);
-		$title = "";
-		if($campaign){
-			$title = $campaign->attributes["title"];
-		}
-		$message = lang("modelCampaignPhotoFacebookPost", array($title, app()->helper("UrlHelper")->url("campaignEntries/view", array("cid" => $data["id"], "id" => $entry->attributes["id"]), true)));
-		$photo = app()->helper("FacebookHelper")->uploadPhoto(array(
-			"message" => $message,
-			"name" => $message,
-			"url" => app()->config("baseUrl") . $content["photoUrl"]
-		));
-
-		return array(
-			"success" => true,
-			"forward" => true,
-			"redirectUrl" => app()->helper("UrlHelper")->url("campaigns/view", array("id" => $data["id"]), false, $this->pageTab)
-		);
 	}
 }

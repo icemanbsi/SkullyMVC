@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Trio Design (trio@tgitriodesign.com).
+ * Created by Jay from Trio Design (jay@tgitriodesign.com).
  * Date: 2/27/13
  * Time: 11:18 PM
  * Description: Global (usually shortcut) functions are stored here.

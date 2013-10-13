@@ -1,6 +1,6 @@
 Skully MVC
 
-This is a php MVC framework I have developed myself.
+This is a very simple php MVC framework.
 
 There are already quite a number of frameworks out there. I myself have worked with Zend, Code Igniter, Rails, and Yii frameworks. So why another php framework?
 
@@ -22,3 +22,52 @@ Development roadmap:
 
 1. Mocha for Integration testing.
 2. PHPUnit for Unit and Functional testing.
+3. Documentation tools, perhaps using API Gen.
+
+-----------------------
+Documentation & How-Tos
+-----------------------
+
+---Cron---
+Opens a file that lists all cron jobs, which you can use to create, edit, and delete crons:
+crontab -e
+
+Running the cron every 3 minutes:
+*/3 * * * * php /basePath/app/crons/base.php siteName.com
+
+base.php will run other crons.
+
+---PHPUnit---
+To run php unit via terminal, simply browse to /tests directory, then run:
+./phpunit.phar unit/YourTest.php
+
+---JS Packer---
+This tool is used to pack your javascsripts into one large compressed file. This is really useful to optimize the speed
+of your site.
+To use this, open the terminal app, then browse to /tools/jspacker and run:
+./pack /YOUR_THEME/packjs.txt
+For example: ./pack /default/packjs.txt
+Figure out how to pack by looking at that file, it's easy!
+
+---SCSS---
+SCSS is basically a CSS syntax on Steroids. You can do some logic, nesting, variables, and inclusion in your css
+just like any programming language with this.
+To use this, first you need to install compass (gem install compass),
+then browse to /themes/YOUR_THEME/resources/scss and run:
+compass watch
+Then anything you write on site.scss will be converted to css file to use on your site.
+
+---Database Migration / Ruckus---
+Database migration tool similar to rails.
+To use this, first configure it by editing /tools/configure.php
+In that file, change 'online/path' to a path available on your server.
+Read ruckusing documentation.
+
+-----------------------
+FAQs
+-----------------------
+
+---Why does the config stored inside shared/ dir?---
+The original idea of this MVC is to allow multiple app with same configurations,
+but somehow along the way it deviates from that.
+The idea is to have app/, anotherApp/, etc. directories all accessing the shared directory.

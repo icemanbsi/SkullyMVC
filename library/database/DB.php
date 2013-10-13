@@ -22,9 +22,6 @@ class DB {
 
 	public function sanitizeName($name = '') {
 		if (!empty($name)) {
-			//return preg_replace('/[^0-9a-zA-Z\.\_\-s]/i','',$name);
-			//errorLog('sanitizing ' . $name);
-			//errorLog('to ' . preg_replace('/[^0-9a-zA-Z\.\_\-s]/i','',str_replace(' ', '_', $name)));
 			return preg_replace('/[^0-9a-zA-Z\.\_\-s]/i','',str_replace(' ', '_', $name));
 		}
 		else {

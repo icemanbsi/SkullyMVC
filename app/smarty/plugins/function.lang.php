@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Trio Design (trio@tgitriodesign.com).
+ * Created by Jay from Trio Design (jay@tgitriodesign.com).
  * Date: 5/4/13
  * Time: 3:09 PM
  * Description: Global lang() function for tinymce.

@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by TrioDesign (trio@tgitriodesign.com).
+ * Created by Jay from TrioDesign (trio@tgitriodesign.com).
  * User: Bobby Stenly Irawan
  * Date: 5/6/13
  * Time: 2:05 PM

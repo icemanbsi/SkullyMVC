@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Trio Design (trio@tgitriodesign.com).
+ * Created by Jay from Trio Design (jay@tgitriodesign.com).
  * Date: 4/24/13
  * Time: 3:09 PM
  * Description: Get all assigned variables from template, to help designer coding a template.

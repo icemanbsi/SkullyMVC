@@ -17,8 +17,8 @@ dispatch($config, $clientConfig);
 
 //errorLog("index.php, all parameters: " . print_r($_GET, true));
 //error_log("index.php all params: ".  print_r($_GET, true));
-if (!empty(app()->config['maintenance']) && !empty(app()->config['maintenanceIp']) && app()->config['maintenance'] == true && $_SERVER['REMOTE_ADDR'] != app()->config['maintenanceIp']) {
-	header('Location: '.app()->config('baseUrl').'brb.html');
+if (!empty(app()->config['maintenance']) && !empty(app()->config['maintenanceIp']) && app()->config['maintenance'] == true && $_SERVER['REMOTE_ADDR'] != app()->config('maintenanceIp')) {
+	header('Location: '.app()->config('maintenancePath'));
 }
 else {
 	if (empty($_GET['_url'])) {

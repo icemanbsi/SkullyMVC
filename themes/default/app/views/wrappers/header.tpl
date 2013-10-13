@@ -4,18 +4,12 @@
 
 {*<link rel="SHORTCUT ICON" href="<?php echo url('/').'/favicon.ico'; ?>">*}
 
-<link rel="stylesheet" type="text/css" href="{$themeUrl}resources/css/main.css?c={$smarty.now}" />
-
-<script src="{$themeUrl}resources/js/plugins/jquery/jquery-1.9.1.min.js"></script>
-<script src="{$themeUrl}resources/js/plugins/jquery/jquery-ui-1.10.1.custom.min.js"></script>
-<script type='text/javascript' src='{$themeUrl}resources/js/plugins/jquery/jquery-migrate-1.1.1.min.js'></script>
-<script type='text/javascript' src='{$themeUrl}resources/js/plugins/jquery/globalize.js'></script>
-<script type="text/javascript" src="{$themeUrl}resources/js/plugins/validationEngine/languages/jquery.validationEngine-en.js"></script>
-<script type='text/javascript' src='{$themeUrl}resources/js/plugins/validationEngine/jquery.validationEngine.js'></script>
-
+<link rel="stylesheet" type="text/css" href="{$themeUrl}resources/bootstrap-3.0.0/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="{$themeUrl}resources/bootswatch/bootswatch.min.css" />
+<link rel="stylesheet" type="text/css" href="{$themeUrl}resources/css/site.css?c={$smarty.now}" />
+<script type="text/javascript" src="{$themeUrl}resources/js/jquery-2.0.3.min.js"></script>
+<script src="{$themeUrl}resources/bootstrap-3.0.0/js/bootstrap.min.js"></script>
 <script src="{$themeUrl}resources/js/all.js?c={$smarty.now}"></script>
-
-<script src="//connect.facebook.net/en_US/all.js"></script>
 
 <script style="text/javascsript">
 	var _config = {$clientConfig|@json_encode};

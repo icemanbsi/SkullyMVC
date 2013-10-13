@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by Jay from Trio Design (jay@tgitriodesign.com).
+ * Date: 8/26/13
+ * Time: 4:42 PM
+ * Description: A library to handle ActiveRecord. For use with Skully MVC.
+ */
+
 namespace Library\ActiveRecord;
 
 // WARNING: The correct way to not allowing some fields to be changed on update/save is by

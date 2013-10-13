@@ -34,7 +34,5 @@ dispatch($config, $clientConfig);
 //errorLog("base.php cron starting");
 // === END ===
 
-include(BASE_PATH . "app/crons/campaignStatus.php");
-include(BASE_PATH . "app/crons/winningAnnouncement.php");
-
-//echo "done";
+// Include the cron files here
+// include(BASE_PATH . "app/crons/cronfile.php");

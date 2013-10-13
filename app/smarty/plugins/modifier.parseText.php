@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Trio Design (trio@tgitriodesign.com).
+ * Created by Jay from Trio Design (jay@tgitriodesign.com).
  * Date: 7/23/13
  * Time: 12:10 PM
  * Description: Parse text from admin inputs to be placed as pure text (i.e. at meta tags and title attributes).

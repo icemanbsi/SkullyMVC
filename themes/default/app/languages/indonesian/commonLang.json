@@ -1,3 +1,10 @@
 {
-	"mainTitle": "Marketing Social Media Super Gampang!"
+	"mainTitle": "SkullyMVC",
+	"mainMetaTitle": "SkullyMVC",
+	"mainMetaDesc": "MVC dengan setup tercepat!",
+	"mainMetaKey": "SkullyMVC",
+	"notFoundDesc": "Halaman yang anda cari tidak ditemukan",
+
+	"notFound" : "Tidak Ketemu",
+	"notFoundTitle": "Halaman tidak ditemukan, coba halaman lain."
 }

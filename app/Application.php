@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Trio Design (trio@tgitriodesign.com).
+ * Created by Jay from Trio Design (jay@tgitriodesign.com).
  * Date: 2/27/13
  * Time: 2:52 PM
  * Description: The application class. You could say this is the factory for Controllers and Helpers.
@@ -16,7 +16,6 @@ class Application {
 	// They are stored so they will not be re-initiated.
 	private $_helpers = array();
 	private $_controllers = array();
-	private $_user = null;
 
 	private $_currentController; // To get current controller from anywhere, do app()->currentController or app()->controller();
 
@@ -32,14 +31,21 @@ class Application {
 	private $_encryptor = null; // Encryptor class for reversible encryption, used in smtp auth password;
 	private $_mailer = null;
 
+	// config() and clientConfig methods allow you to adjust the configurations as they are being called.
+
 	public function config($key = null) {
 		// list of url configs to change http to https when site is accessed in https.
 		$urlConfigs = array('baseUrl');
 		if (empty($key)) {
 			$results = array();
 			foreach($this->config as $key=>$value) {
-				if (in_array($key, $urlConfigs) && isHttps()) {
-					$value = str_replace('http:', 'https:', $this->config[$key]);
+				if (in_array($key, $urlConfigs)) {
+					// Write down your additional conditions here to add logic to config getter.
+
+					// end
+					if (isHttps()) {
+						$value = str_replace('http:', 'https:', $this->config[$key]);
+					}
 				}
 				$results[$key] = $value;
 			}
@@ -60,15 +66,20 @@ class Application {
 		if (empty($key)) {
 			$results = array();
 			foreach($this->clientConfig as $key=>$value) {
-				if (in_array($key, $urlConfigs) && isHttps()) {
-					$value = str_replace('http', 'https', $this->clientConfig[$key]);
+				if (in_array($key, $urlConfigs)) {
+					// Write down your additional conditions here to add logic to config getter.
+
+					// end
+					if (isHttps()) {
+						$value = str_replace('http', 'https', $this->clientConfig[$key]);
+					}
 				}
 				$results[$key] = $value;
 			}
 			return $results;
 		}
 		else {
-			$answer = $this->clientConfig[$key];
+			$answer = $this->clientConfig($key);
 			if (in_array($key, $urlConfigs) && isHttps()) {
 				$answer = str_replace('http', 'https', $this->clientConfig[$key]);
 			}
@@ -77,12 +88,16 @@ class Application {
 	}
 
 	// Application's root directory, used in BaseController to get template
-	public function basePath() {
+	public function appPath() {
 		return BASE_PATH . $this->namespaceToPath() . DS;
 	}
 
 	public function themePath() {
 		return BASE_PATH . 'themes' . DS . app()->config('theme') . DS . $this->namespaceToPath() . DS;
+	}
+
+	public function themeUrl() {
+		return $this->config('baseUrl').'themes/'.$this->config('theme').'/';
 	}
 
 	public function namespaceToPath() {
@@ -97,7 +112,7 @@ class Application {
 		$sth = $this->db->execute("SHOW TABLES FROM " . $this->config['db']['database']);
 		while ($row=mysqli_fetch_array($sth, MYSQLI_ASSOC)) {
 			$temp = $row["Tables_in_" . $this->config['db']['database']];
-			$temp = str_replace($this->config['tablePrefix'], '', $temp);
+			$temp = str_replace($this->config('tablePrefix'), '', $temp);
 			$temp = lcfirst($temp);
 			$this->tableNames[$temp] = $row["Tables_in_" . $this->config['db']['database']];
 		}
@@ -106,7 +121,7 @@ class Application {
 	public function table($tableName) {
 		if(empty($this->tableNames))$this->setTableNames();
 		if(!empty($this->tableNames[$tableName]))return $this->tableNames[$tableName];
-		else return $this->config['tablePrefix'].$tableName;
+		else return $this->config('tablePrefix').$tableName;
 	}
 
 	// Get current language based on session.
@@ -132,60 +147,6 @@ class Application {
 		}
 	}
 
-	// Get currently active user.
-	// http://developers.facebook.com/docs/appsonfacebook/tutorial/
-	public function getUser() {
-		if (empty($this->_user)) {
-			// $fbId = THE_CURRENT_USER_ID;
-			$fbId = $this->facebook()->getUser();
-			if (!empty($fbId) && !empty($_SESSION["userId"])) {
-				$this->_user = \App\Models\User::model()->findByFacebookId($fbId);
-			}
-		}
-		return $this->_user;
-	}
-
-	// Get user in admin app. Separate this with getUser since
-	// in admin the app is independent of facebook.
-	public function getAdmin() {
-		if (!empty(app()->config['localTest']) && app()->config('localTest') == true) {
-			return \App\Models\User::model()->find()->first();
-		}
-		else {
-			if (empty($this->_user)) {
-				$this->_user = \App\Models\Authentication::model()->find();
-			}
-			return $this->_user;
-		}
-	}
-
-	public function unsetUser() {
-		unset($this->_user);
-	}
-
-	// Get currently active user's id or return empty if no user exists
-	public function getUserId() {
-		if (!empty($this->user)) {
-			return $this->user->attributes['id'];
-		}
-		else {
-			return null;
-		}
-	}
-
-	public function unsetUserId() {
-		unset($this->_user);
-	}
-
-	public function getUserAttributes() {
-		if (!empty($this->user)) {
-			return $this->user->attributes;
-		}
-		else {
-			return array();
-		}
-	}
-
 	// Get controller from raw url e.g. thisurl/is/good
 	// Rules will be applied to the url before controller is called.
 	public function runControllerFromRawUrl($rawUrl, $additionalParams = array()) {
@@ -197,6 +158,8 @@ class Application {
 
 		// Path is something like controller/action or prefix/controller/action
 		$path_r = explode('/', $url);
+
+		$actionStr = 'index';
 		if (count($path_r) == 2) {
 			list($controllerStr, $actionStr) = $path_r;
 		}
@@ -210,12 +173,14 @@ class Application {
 		}
 
 		if (!empty($controllerStr)) {
-			$controller = $this->controller($controllerStr, $url_r[1]);
+			$controller = $this->controller($controllerStr, $url_r[1], $actionStr);
 			$controller->addParams($additionalParams);
 
-//			errorLog("Running controller ".$controllerStr." action " . $actionStr);
 			// Run controller's action
 			$controller->runAction($actionStr);
+		}
+		else {
+			include($this->config('notFoundPath'));
 		}
 
 		return $controller;
@@ -223,7 +188,8 @@ class Application {
 
 	// Get controller from system path e.g. controller/action.
 	// Add additionalParams for well.. additional parameters.
-	public function controller($controllerStr = '', $additionalParams = array()) {
+	// actionStr is needed to load language for that action.
+	public function controller($controllerStr = '', $additionalParams = array(), $actionStr = '') {
 		if (empty($controllerStr)) {
 			return $this->currentController;
 		}
@@ -252,8 +218,8 @@ class Application {
 
 				// Gets language for each descendant.
 				// For example if path is a/b/c
-				// Then get a/aLang.json, a/b/bLang.json, and a/b/c/cLang.json.
-				$defaultLangPath = $this->themePath().'languages'.DS.'english'.DS.$pathSoFar.$pathItem.'Lang.json';
+				// Then get a/aLang.json, a/b/_bLang.json, and a/b/c/_cLang.json.
+				$defaultLangPath = $this->themePath().'languages'.DS.'english'.DS.$pathSoFar.'_'.$pathItem.'Lang.json';
 				if (file_exists($defaultLangPath)) {
 					$additionalLang = file_get_contents($defaultLangPath,true);
 					if (!empty($additionalLang)) {
@@ -267,7 +233,21 @@ class Application {
 					}
 				}
 
-				$langPath = $this->themePath().'languages'.DS.app()->language.DS.$pathSoFar.$pathItem.'Lang.json';
+				$langPath = $this->themePath().'languages'.DS.app()->language.DS.$pathSoFar.'_'.$pathItem.'Lang.json';
+				if (file_exists($langPath)) {
+					$additionalLang = file_get_contents($langPath,true);
+					if (!empty($additionalLang)) {
+						// $this->lang was first set in method instantiate().
+						$additionalLang = json_decode($additionalLang, true);
+						if(!empty($additionalLang))
+							$this->lang = array_merge($this->lang, $additionalLang);
+					}
+				}
+			}
+
+			if (!empty($actionStr)) {
+				// Get action lang (i.e. controller/action should get _controllerLang.json and _actionLang.json)
+				$langPath = $this->themePath().'languages'.DS.app()->language.DS.$pathSoFar.$actionStr.'Lang.json';
 				if (file_exists($langPath)) {
 					$additionalLang = file_get_contents($langPath,true);
 					if (!empty($additionalLang)) {
@@ -297,20 +277,46 @@ class Application {
 	}
 
 	public function closeDb() {
-		$this->db->close();
+		if ($this->config('useDb')) {
+			$this->db->close();
+		}
 	}
 
+	// When config is provided, it means the app is instantiated for the first time.
 	private function __construct($config=array()) {
 		if (!empty($config)) {
 			foreach ($config as $key => $value) {
 				$this->config[$key] = $value;
 			}
 
-			// Setup db
-			$this->db = new \Library\Database\DB($this->config['db']['server'], $this->config['db']['username'], $this->config['db']['password'], $this->config['db']['database']);
-			if ($this->db->error_code<0) {
-				echo "Failed to connect to database";
-				die;
+			// Setup db when needed
+			if ($this->config('useDb')) {
+				$this->db = new \Library\Database\DB($this->config['db']['server'], $this->config['db']['username'], $this->config['db']['password'], $this->config['db']['database']);
+				if ($this->db->error_code<0) {
+					echo "Failed to connect to database";
+					die;
+				}
+			}
+
+			$this->langAdjustment();
+		}
+	}
+
+	// Retrieve and remove lang path.
+	// E.g. http://siteName.com/en/controller/action
+	// Get the 'en' part and add 'english' to $_GET['_language']
+	// (languages are defined in commonConfig)
+	protected function langAdjustment() {
+		if (!empty($_GET['_url'])) {
+			$path_r = explode('/', $_GET['_url']);
+			foreach ($this->config['languages'] as $key => $value) {
+				$index = array_search($key, $path_r);
+				if ($index !== false) {
+					$_GET['_language'] = $value;
+					unset($path_r[$index]);
+					$_GET['_url'] = implode('/', $path_r);
+					return;
+				}
 			}
 		}
 	}
