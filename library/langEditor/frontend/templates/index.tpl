@@ -59,7 +59,7 @@
 								</td>
 							{else}
 								<td>
-									<pre class="entry" contenteditable data-name="{$item.name}">{$item.value|htmlentities|truncate:80:"...":true}</pre>
+									<pre class="entry" contenteditable data-name="{$item.name}">{$item.value}</pre>
 								</td>
 							{/if}
 							<td>
