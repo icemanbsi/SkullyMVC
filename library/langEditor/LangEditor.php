@@ -184,7 +184,7 @@ class LangEditor
 					$this->smarty()->loadPlugin('smarty_function_addUrlParams');
 					$path_r[0] = $language;
 					if (!empty($key)) {
-						$url = smarty_function_addUrlParams(array('url' => $this->config->editUrl, 'path' => implode('/', $path_r)), $this->smarty());
+						$url = smarty_function_addUrlParams(array('url' => $this->config->editUrl, 'path' => implode('/', $path_r), 'key' => $key), $this->smarty());
 					}
 					else {
 						$url = smarty_function_addUrlParams(array('url' => $this->config->indexUrl, 'path' => implode('/', $path_r)), $this->smarty());
