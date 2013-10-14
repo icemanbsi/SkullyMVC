@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-10-14 02:29:49
+<?php /* Smarty version Smarty-3.1.13, created on 2013-10-14 09:26:31
          compiled from "/Volumes/Data/work/apache/skullyMVC/library/langEditor/frontend/templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1621146220525914b18f3926-93921833%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a52825aaaec39b7380e61cb7245e3a6e312cfdf3' => 
     array (
       0 => '/Volumes/Data/work/apache/skullyMVC/library/langEditor/frontend/templates/index.tpl',
-      1 => 1381692587,
+      1 => 1381717575,
       2 => 'file',
     ),
     '2cb6bd15a8319fd328e8d32e3d1bf659f837aef4' => 
@@ -35,8 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_525914b19e1cd9_28176827')) {function content_525914b19e1cd9_28176827($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/Volumes/Data/work/apache/skullyMVC/library/smarty-3.1.13/libs/plugins/modifier.truncate.php';
-if (!is_callable('smarty_function_addUrlParams')) include '/Volumes/Data/work/apache/skullyMVC/library/langEditor/smartyPlugins/function.addUrlParams.php';
+<?php if ($_valid && !is_callable('content_525914b19e1cd9_28176827')) {function content_525914b19e1cd9_28176827($_smarty_tpl) {?><?php if (!is_callable('smarty_function_addUrlParams')) include '/Volumes/Data/work/apache/skullyMVC/library/langEditor/smartyPlugins/function.addUrlParams.php';
 ?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['bootstrapBaseUrl']->value;?>
@@ -161,7 +160,7 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
 							<?php }else{ ?>
 								<td>
 									<pre class="entry" contenteditable data-name="<?php echo $_smarty_tpl->tpl_vars['item']->value['name'];?>
-"><?php echo smarty_modifier_truncate(htmlentities($_smarty_tpl->tpl_vars['item']->value['value']),80,"...",true);?>
+"><?php echo htmlentities($_smarty_tpl->tpl_vars['item']->value['value']);?>
 </pre>
 								</td>
 							<?php }?>

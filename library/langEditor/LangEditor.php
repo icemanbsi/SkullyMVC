@@ -285,16 +285,19 @@ class LangEditor
 			$path = $_GET['path'];
 			$entries = $this->readFile($this->config->langBasePath.$path);
 			$this->smarty()->loadPlugin('smarty_function_addUrlParams');
-			if ($_POST['data']) {
+			errorLog("post: ".print_r($_POST, true));
+			if (isset($_POST['data'])) {
 				// bulk update
-				$entries = json_decode(html_entity_decode($_POST['data']));
+				$entries = json_decode(htmlspecialchars_decode($_POST['data']));
 				file_put_contents($this->config->langBasePath.$path, json_encode($entries));
 				$url = smarty_function_addUrlParams(array('url' => $this->config->indexUrl, 'path' => $path, 'message' => 'updated'), $this->smarty());
 			}
 			else {
 				$key = $_GET['key'];
 				$value = $_POST['value'];
-				$entries[$key] = html_entity_decode($value);
+				$entries[$key] = $value;
+				errorLog("value is $value");
+				errorLog("entries after edit: " . print_r($entries, true));
 				file_put_contents($this->config->langBasePath.$path, json_encode($entries));
 				if (!empty($entries)) {
 					$url = smarty_function_addUrlParams(array('url' => $this->config->editUrl, 'path' => $path, 'key' => $key, 'message' => 'updated'), $this->smarty());

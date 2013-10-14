@@ -19,7 +19,7 @@
 					{/if}
 				{/foreach}
 			</ul>
-			<form method="post" action="{$updateUrl}">
+			<form id="form" method="post" action="{$updateUrl}">
 				<h2>{$item.key}:</h2>
 				<textarea name="value" id="entryValue">{$item.value}</textarea>
 				<br />
@@ -31,7 +31,10 @@
 				{$item.value}
 			</div>
 			<script>
-				CKEDITOR.replace( 'entryValue', {
+				$('#form').submit(function() {
+					$('#howItLooks').html($(editor.getData()));
+				});
+				var editor = CKEDITOR.replace( 'entryValue', {
 					on: {
 						change: function(e) {
 							$('#howItLooks').html($(e.editor.getData()));

@@ -1,7 +1,2 @@
 .idea
 .DS_STORE
-shared/config/config.php
-logs
-.pushand
-.htaccess
-.webbynode/

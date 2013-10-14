@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-10-14 02:31:30
+<?php /* Smarty version Smarty-3.1.13, created on 2013-10-14 09:17:30
          compiled from "/Volumes/Data/work/apache/skullyMVC/library/langEditor/frontend/templates/edit.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:367919089525a7661df5214-55606520%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f3000aaea43e81447e7439feec6ffce4962c45c4' => 
     array (
       0 => '/Volumes/Data/work/apache/skullyMVC/library/langEditor/frontend/templates/edit.tpl',
-      1 => 1381692662,
+      1 => 1381717046,
       2 => 'file',
     ),
     '2cb6bd15a8319fd328e8d32e3d1bf659f837aef4' => 
@@ -111,7 +111,7 @@ $_smarty_tpl->tpl_vars['breadcrumb']->_loop = true;
 					<?php }?>
 				<?php } ?>
 			</ul>
-			<form method="post" action="<?php echo $_smarty_tpl->tpl_vars['updateUrl']->value;?>
+			<form id="form" method="post" action="<?php echo $_smarty_tpl->tpl_vars['updateUrl']->value;?>
 ">
 				<h2><?php echo $_smarty_tpl->tpl_vars['item']->value['key'];?>
 :</h2>
@@ -127,7 +127,10 @@ $_smarty_tpl->tpl_vars['breadcrumb']->_loop = true;
 
 			</div>
 			<script>
-				CKEDITOR.replace( 'entryValue', {
+				$('#form').submit(function() {
+					$('#howItLooks').html($(editor.getData()));
+				});
+				var editor = CKEDITOR.replace( 'entryValue', {
 					on: {
 						change: function(e) {
 							$('#howItLooks').html($(e.editor.getData()));
