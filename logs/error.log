@@ -273,3 +273,7 @@ entries after edit: Array
 
 )
 
+[14-Oct-2013 09:43:51 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
+[14-Oct-2013 09:44:10 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
+[14-Oct-2013 09:44:10 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
+[14-Oct-2013 09:44:10 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152

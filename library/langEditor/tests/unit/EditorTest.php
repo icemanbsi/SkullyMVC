@@ -33,7 +33,7 @@ class EditorTest extends PHPUnit_Framework_TestCase
 
 		// get first level items
 		$items = $this->langEditor->getItems('');
-		$this->assertCount(3, $items);
+		$this->assertCount(2, $items);
 		$this->assertEquals('admin', $items[0]['name']);
 		$this->assertEquals('admin', $items[0]['path']);
 
@@ -73,7 +73,7 @@ class EditorTest extends PHPUnit_Framework_TestCase
 	public function testGetBreadcrumbs() {
 		$breadcrumbs = $this->langEditor->getBreadcrumbs('admin');
 		$this->assertCount(2, $breadcrumbs);
-		$this->assertEquals($this->langEditor->indexUrl, $breadcrumbs[0]['path']);
+		$this->assertEquals($this->langEditor->config->indexUrl, $breadcrumbs[0]['url']);
 		$this->assertEquals('admin', $breadcrumbs[1]['label']);
 		$this->assertTrue($breadcrumbs[1]['active'], 'should be active');
 

@@ -17,7 +17,7 @@ if ($serverName == 'localhost') {
 			"password"	=> "pass",
 			"port"		=> "",
 			"database"	=> "db_name"
-		)
+		),
 	);
 }
 else {
