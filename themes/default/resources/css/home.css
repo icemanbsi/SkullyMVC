@@ -1,0 +1,64 @@
+/* line 31, ../scss/home.scss */
+.content-block { float: left; width: 500px; }
+/* line 35, ../scss/home.scss */
+.content-block .page-title { background: url('../images/home-title.png?1381657676') 0 0 no-repeat; height: 15px; margin-bottom: 10px; }
+/* line 41, ../scss/home.scss */
+.content-block > section { margin-bottom: 35px; }
+/* line 42, ../scss/home.scss */
+.content-block > section:last-child { margin-bottom: 0; }
+/* line 44, ../scss/home.scss */
+.content-block section.newsletter .page-title { background-position: 0 0; }
+/* line 45, ../scss/home.scss */
+.content-block section.member .page-title { background-position: 0 -15px; }
+
+/* line 50, ../scss/home.scss */
+section.newsletter { font-size: 14px; }
+/* line 53, ../scss/home.scss */
+section.newsletter li { background: url('../images/home-bullet.png?1381658793') 0 2px no-repeat; margin-bottom: 5px; padding-left: 25px; }
+/* line 59, ../scss/home.scss */
+section.newsletter a { display: inline-block; text-decoration: none; line-height: 20px; overflow: hidden; }
+/* line 66, ../scss/home.scss */
+section.newsletter a:hover span.title, section.newsletter a:focus span.title, section.newsletter a:active span.title { text-decoration: underline; }
+/* line 70, ../scss/home.scss */
+section.newsletter span.date { color: #428600; float: left; width: 100px; }
+/* line 76, ../scss/home.scss */
+section.newsletter span.title { color: #666666; display: block; margin-left: 100px; }
+
+/* line 84, ../scss/home.scss */
+section.member a { background: #e2e2d7 url('../images/home-member.png?1381658269') 0 0 no-repeat; border: 4px solid #EEEEEE; display: block; float: left; height: 75px; margin: 0 15px 12px 0; text-indent: -9999px; position: relative; overflow: hidden; width: 200px; }
+/* line 96, ../scss/home.scss */
+section.member a:nth-child(1) { background-position: 0 0; }
+/* line 97, ../scss/home.scss */
+section.member a:nth-child(2) { background-position: 0 -75px; }
+/* line 98, ../scss/home.scss */
+section.member a:nth-child(3) { background-position: 0 -150px; }
+/* line 99, ../scss/home.scss */
+section.member a:nth-child(4) { background-position: 0 -225px; }
+/* line 100, ../scss/home.scss */
+section.member a:nth-child(n + 3) { margin-bottom: 0; }
+/* line 102, ../scss/home.scss */
+section.member a:hover, section.member a:focus, section.member a:active { background-color: #559EE8; border-color: #BAE2FA; }
+/* line 106, ../scss/home.scss */
+section.member a:hover:nth-child(1), section.member a:focus:nth-child(1), section.member a:active:nth-child(1) { background-position: -200px 0; }
+/* line 107, ../scss/home.scss */
+section.member a:hover:nth-child(2), section.member a:focus:nth-child(2), section.member a:active:nth-child(2) { background-position: -200px -75px; }
+/* line 108, ../scss/home.scss */
+section.member a:hover:nth-child(3), section.member a:focus:nth-child(3), section.member a:active:nth-child(3) { background-position: -200px -150px; }
+/* line 109, ../scss/home.scss */
+section.member a:hover:nth-child(4), section.member a:focus:nth-child(4), section.member a:active:nth-child(4) { background-position: -200px -225px; }
+/* line 111, ../scss/home.scss */
+section.member a:hover:after, section.member a:focus:after, section.member a:active:after { bottom: 0; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(186, 226, 250, 0); border-bottom-color: #BAE2FA; border-width: 7px; left: 50%; margin-left: -7px; }
+
+/* line 131, ../scss/home.scss */
+.sidebar { margin-left: 549px; }
+/* line 134, ../scss/home.scss */
+.sidebar a { background: url('../images/home-sidebar.jpg?1381657280') 0 0 no-repeat; display: block; height: 141px; margin-bottom: 5px; text-indent: -9999px; overflow: hidden; }
+/* line 142, ../scss/home.scss */
+.sidebar a:nth-child(1) { background-position: 0 0; }
+/* line 143, ../scss/home.scss */
+.sidebar a:nth-child(2) { background-position: 0 -143px; }
+/* line 144, ../scss/home.scss */
+.sidebar a:nth-child(3) { background-position: 0 -287px; }
+
+@media only screen and (min-width: 35em) { /* Style adjustments for viewports that meet the condition */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }

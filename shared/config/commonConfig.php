@@ -9,7 +9,7 @@ if ($serverName == 'localhost') {
 	);
 
 	$clientAndServerConfigAdd = array(
-		'baseUrl' => 'http://localhost/skullyMVC/'
+		'baseUrl' => 'http://localhost/randl/'
 	);
 }
 else {
@@ -24,13 +24,13 @@ else {
 
 $config = array_merge($config, array(
 	// App can be configured not to use database.
-	'useDb' => false,
+	'useDb' => true,
 
 	// Set these to make your site showing under maintenance page
 	'maintenance' => false,
 	'maintenanceIp' => '139.195.146.93',
 
-	"tablePrefix"	=> "skully_",
+	"tablePrefix"	=> "randl_",
 
 	// Date formats used on the site
 	"dateFormatDb" => "Y-m-d H:i:s",
@@ -45,7 +45,7 @@ $config = array_merge($config, array(
 	// the controller. For example instead of adding 'home' parameter here,
 	// route to pages/home then from there calls pages/view action.
 	'urlRules' => array(
-		'' => 'pages/home',
+		'' => 'home/index',
 		// -- set all other rules here --
 		'editor' => 'langEditor/index',
 		'editor/index' => 'langEditor/index',
@@ -55,15 +55,15 @@ $config = array_merge($config, array(
 		'editor/update' => 'langEditor/update',
 		'editor/destroy' => 'langEditor/destroy',
 		// -- end -- //
-		'page/%page%' => 'pages/view'
+		'page/%page' => 'pages/view'
 	),
 	// default selected language
 	'language' => 'english',
 
 	// the key here is used on url i.e. http://sitename.com/en/index
 	'languages' => array(
-		'en' => 'english',
-		'id' => 'indonesian'
+		'en' => array('value' => 'english', 'code' => 'en_us'),
+		'id' => array('value' => 'indonesian', 'code' => 'id')
 	),
 
 	// Theme used on the site, this relates to 'themes' directory.

@@ -139,11 +139,11 @@ class Application {
 	// Get current xmlLang based on session.
 	// Setup session from get parameter when needed
 	public function getXmlLang() {
-		if ($this->language == 'indonesian') {
-			return 'id';
-		}
-		else {
-			return 'en_us';
+		$languages = app()->config('languages');
+		$lang = $this->language;
+
+		foreach($languages as $language){
+			if($language["value"] == $lang) return $language["code"];
 		}
 	}
 
@@ -312,7 +312,7 @@ class Application {
 			foreach ($this->config['languages'] as $key => $value) {
 				$index = array_search($key, $path_r);
 				if ($index !== false) {
-					$_GET['_language'] = $value;
+					$_GET['_language'] = $value["value"];
 					unset($path_r[$index]);
 					$_GET['_url'] = implode('/', $path_r);
 					return;

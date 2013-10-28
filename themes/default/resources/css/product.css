@@ -1,0 +1,92 @@
+/* line 20, ../scss/product.scss */
+.main-header { margin-bottom: 40px; }
+
+/* line 22, ../scss/product.scss */
+.header-bg { background: url('../images/products-header-bg.jpg?1381641500') 0 0 no-repeat; height: 286px; }
+
+/* line 27, ../scss/product.scss */
+.modal-bordered .modal-body { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; min-width: 700px; padding: 25px; overflow: hidden; }
+/* line 33, ../scss/product.scss */
+.modal-bordered .modal-body figure { float: left; width: 300px; text-align: center; }
+/* line 39, ../scss/product.scss */
+.modal-bordered .modal-body .modal-content { margin: 20px 0 0 320px; }
+/* line 40, ../scss/product.scss */
+.modal-bordered .modal-body header { margin-bottom: 5px; }
+/* line 42, ../scss/product.scss */
+.modal-bordered .modal-body h1 { color: #006193; font-size: 20px; margin: 0; }
+/* line 48, ../scss/product.scss */
+.modal-bordered .modal-body footer { margin-top: 15px; }
+/* line 51, ../scss/product.scss */
+.modal-bordered .modal-body footer a { background-color: #006193; color: #fff; cursor: pointer; display: inline-block; line-height: 25px; padding: 0 10px; text-decoration: none; margin-right: 5px; }
+/* line 65, ../scss/product.scss */
+.modal-bordered .modal-body .modal-lang { display: none; }
+/* line 68, ../scss/product.scss */
+.modal-bordered .modal-body .modal-lang.lang-opened { display: block; }
+
+/* line 83, ../scss/product.scss */
+.container-block .page-title { background: url('../images/product-title.png?1381676954') 0 50% no-repeat; padding-left: 160px; }
+
+/* line 91, ../scss/product.scss */
+.sidebar { float: left; width: 155px; }
+/* line 95, ../scss/product.scss */
+.sidebar header { margin-bottom: 5px; }
+/* line 97, ../scss/product.scss */
+.sidebar h2 { color: #22A79C; font-size: 16px; font-weight: normal; margin: 0 10px; }
+/* line 104, ../scss/product.scss */
+.sidebar a { color: #333333; display: block; line-height: 25px; padding: 0 10px; text-decoration: none; }
+/* line 112, ../scss/product.scss */
+.sidebar section { margin-bottom: 15px; }
+
+/* line 116, ../scss/product.scss */
+.company .parent > a { padding-left: 25px; position: relative; }
+/* line 120, ../scss/product.scss */
+.company .parent > a:before { content: "+"; position: absolute; top: 50%; left: 10px; -webkit-transform: translate(0, -50%); -moz-transform: translate(0, -50%); -ms-transform: translate(0, -50%); -o-transform: translate(0, -50%); transform: translate(0, -50%); }
+/* line 128, ../scss/product.scss */
+.company .parent > a.active { background-color: #22A79C; color: #fff; }
+/* line 132, ../scss/product.scss */
+.company .parent > a.active + .sub-block { display: block; }
+/* line 136, ../scss/product.scss */
+.company ul ul a { color: #22A79C; font-size: 12px; }
+/* line 140, ../scss/product.scss */
+.company ul ul a.active { color: #000; }
+/* line 145, ../scss/product.scss */
+.company .sub-block { max-height: 250px; margin: 5px 0 10px; display: none; overflow: hidden; }
+
+/* line 153, ../scss/product.scss */
+.category { font-size: 12px; }
+
+/* line 159, ../scss/product.scss */
+.product-list-block { margin-left: 200px; }
+
+/* line 163, ../scss/product.scss */
+.product-content { border: 1px solid #E0E0E0; float: left; margin: 0 15px 15px 0; position: relative; width: 178px; }
+/* line 170, ../scss/product.scss */
+.product-content:nth-child(3n) { margin-right: 0; }
+/* line 172, ../scss/product.scss */
+.product-content figure { height: 110px; overflow: hidden; }
+/* line 176, ../scss/product.scss */
+.product-content figure span { display: table-cell; height: 110px; text-align: center; vertical-align: middle; width: 178px; }
+/* line 184, ../scss/product.scss */
+.product-content figure img { max-height: 100%; max-width: 100%; }
+/* line 190, ../scss/product.scss */
+.product-content header { background-color: #E0E0E0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; height: 80px; padding: 10px 5px; overflow: hidden; }
+/* line 197, ../scss/product.scss */
+.product-content header > div { display: table-cell; text-align: center; font-size: 11px; height: 5em; overflow: hidden; width: 178px; vertical-align: middle; }
+/* line 207, ../scss/product.scss */
+.product-content header span { display: inline-block; }
+/* line 210, ../scss/product.scss */
+.product-content a { cursor: pointer; display: block; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; }
+
+/* line 222, ../scss/product.scss */
+.pagination-block { font-size: 11px; margin: 15px 30px 0 0; text-align: right; }
+/* line 227, ../scss/product.scss */
+.pagination-block span, .pagination-block select, .pagination-block div, .pagination-block a { display: inline-block; }
+/* line 229, ../scss/product.scss */
+.pagination-block a { background-color: #E0DDDE; color: #666666; text-decoration: none; padding: 0 5px; line-height: 18px; }
+/* line 236, ../scss/product.scss */
+.pagination-block a.active { background-color: #22A79C; color: #fff; }
+/* line 242, ../scss/product.scss */
+.pagination-block .pagination { margin-left: 15px; }
+
+@media only screen and (min-width: 35em) { /* Style adjustments for viewports that meet the condition */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }

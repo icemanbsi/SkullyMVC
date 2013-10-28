@@ -13,10 +13,10 @@ if ($serverName == 'localhost') {
 		'serverName' => $serverName,
 		"db" => array (
 			"server"	=> "127.0.0.1",
-			"username"	=> "user",
-			"password"	=> "pass",
+			"username"	=> "root",
+			"password"	=> "oisadj",
 			"port"		=> "",
-			"database"	=> "db_name"
+			"database"	=> "randl"
 		),
 	);
 }

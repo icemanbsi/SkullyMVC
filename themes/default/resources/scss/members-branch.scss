@@ -1,0 +1,186 @@
+@import "template";
+
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// DEFAULT
+// ==========================================================================
+
+.main-header { margin-bottom: 40px; }
+
+.header-bg {
+	background: image-url('members-header-bg.jpg') 0 0 no-repeat;
+	height: 285px;
+}
+
+.modal-bordered {
+	top: 50px;
+	right: 150px;
+	left: 150px;
+	bottom: 50px;
+	@include translate(0, 0);
+}
+
+.modal-bordered .modal-body {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MAIN CONTAINER
+// ==========================================================================
+
+.container-block {
+	.page-title {
+		background: image-url('member-branch-title.png') 0 50% no-repeat;
+		padding-left: 140px;
+	}
+}
+
+// ==========================================================================
+
+.branch-list {
+	li {
+		border-bottom: 1px solid #E6E6E6;
+
+		&:last-child { border-bottom: none 0; }
+	}
+
+	.company-block {
+		line-height: 30px;
+		padding: 0 10px;
+		overflow: hidden;
+
+		a {
+			color: #22A79C;
+			cursor: pointer;
+			display: inline-block;
+			margin-left: 5px;
+		}
+	}
+
+	.company-name,
+	.company-address,
+	.company-tel { float: left; }
+
+	.company-name { width: 30%; }
+	.company-address { width: 55%; }
+	.company-tel { width: 15%; }
+}
+
+// ==========================================================================
+
+.pagination-block {
+	font-size: 11px;
+	margin-top: 15px;
+	text-align: right;
+
+	span, select, div, a { display: inline-block; }
+
+	a {
+		background-color: #E0DDDE;
+		color: #666666;
+		text-decoration: none;
+		padding: 0 5px;
+		line-height: 18px;
+
+		&.active {
+			background-color: #22A79C;
+			color: #fff;
+		}
+	}
+
+	.pagination { margin-left: 15px; }
+}
+
+// ==========================================================================
+
+#gmaps {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IE HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MODERNIZR HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IMPORTS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MEDIA QUERIES
+//
+// EXAMPLE Media Queries for Responsive Design.
+// Theses examples override the primary ('mobile first') styles.
+// Modify as content requires.
+// ==========================================================================
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+// ==========================================================================
+

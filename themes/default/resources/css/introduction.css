@@ -1,0 +1,23 @@
+/* line 19, ../scss/introduction.scss */
+.main-header { margin-bottom: 40px; }
+
+/* line 21, ../scss/introduction.scss */
+.header-bg { background: url('../images/introduction-header-bg.jpg?1381641169') 0 0 no-repeat; height: 285px; }
+
+/* line 38, ../scss/introduction.scss */
+.container-block .page-title { background: url('../images/introduction-title.png?1381666610') 0 50% no-repeat; padding-left: 140px; }
+/* line 42, ../scss/introduction.scss */
+.container-block .page-title.articles { background-image: url('../images/introduction-articles-title.png?1381737444'); }
+
+/* line 46, ../scss/introduction.scss */
+.maybethisisloading { background: url('../images/something-idk-cant-read.png?1381666488') 50% 50% no-repeat; min-height: 150px; }
+
+/* line 54, ../scss/introduction.scss */
+.introduction-articles > article { margin-bottom: 30px; }
+/* line 57, ../scss/introduction.scss */
+.introduction-articles > article header { margin-bottom: 5px; }
+/* line 60, ../scss/introduction.scss */
+.introduction-articles > article header h1 { color: #22A79C; font-size: 16px; font-weight: normal; margin: 0; }
+
+@media only screen and (min-width: 35em) { /* Style adjustments for viewports that meet the condition */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }

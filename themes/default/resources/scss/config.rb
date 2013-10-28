@@ -8,3 +8,6 @@ css_path = File.join(File.dirname(__FILE__), "../css")
 output_style = :compact
 
 # load File.join(sass_path)
+
+images_dir = "../images"
+relative_assets = true

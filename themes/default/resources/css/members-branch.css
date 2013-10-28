@@ -1,0 +1,48 @@
+/* line 19, ../scss/members-branch.scss */
+.main-header { margin-bottom: 40px; }
+
+/* line 21, ../scss/members-branch.scss */
+.header-bg { background: url('../images/members-header-bg.jpg?1381641331') 0 0 no-repeat; height: 285px; }
+
+/* line 26, ../scss/members-branch.scss */
+.modal-bordered { top: 50px; right: 150px; left: 150px; bottom: 50px; -webkit-transform: translate(0, 0); -moz-transform: translate(0, 0); -ms-transform: translate(0, 0); -o-transform: translate(0, 0); transform: translate(0, 0); }
+
+/* line 34, ../scss/members-branch.scss */
+.modal-bordered .modal-body { position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+
+/* line 53, ../scss/members-branch.scss */
+.container-block .page-title { background: url('../images/member-branch-title.png?1381737164') 0 50% no-repeat; padding-left: 140px; }
+
+/* line 62, ../scss/members-branch.scss */
+.branch-list li { border-bottom: 1px solid #E6E6E6; }
+/* line 65, ../scss/members-branch.scss */
+.branch-list li:last-child { border-bottom: none 0; }
+/* line 68, ../scss/members-branch.scss */
+.branch-list .company-block { line-height: 30px; padding: 0 10px; overflow: hidden; }
+/* line 73, ../scss/members-branch.scss */
+.branch-list .company-block a { color: #22A79C; cursor: pointer; display: inline-block; margin-left: 5px; }
+/* line 83, ../scss/members-branch.scss */
+.branch-list .company-name, .branch-list .company-address, .branch-list .company-tel { float: left; }
+/* line 85, ../scss/members-branch.scss */
+.branch-list .company-name { width: 30%; }
+/* line 86, ../scss/members-branch.scss */
+.branch-list .company-address { width: 55%; }
+/* line 87, ../scss/members-branch.scss */
+.branch-list .company-tel { width: 15%; }
+
+/* line 92, ../scss/members-branch.scss */
+.pagination-block { font-size: 11px; margin-top: 15px; text-align: right; }
+/* line 97, ../scss/members-branch.scss */
+.pagination-block span, .pagination-block select, .pagination-block div, .pagination-block a { display: inline-block; }
+/* line 99, ../scss/members-branch.scss */
+.pagination-block a { background-color: #E0DDDE; color: #666666; text-decoration: none; padding: 0 5px; line-height: 18px; }
+/* line 106, ../scss/members-branch.scss */
+.pagination-block a.active { background-color: #22A79C; color: #fff; }
+/* line 112, ../scss/members-branch.scss */
+.pagination-block .pagination { margin-left: 15px; }
+
+/* line 117, ../scss/members-branch.scss */
+#gmaps { position: absolute; height: 100%; width: 100%; }
+
+@media only screen and (min-width: 35em) { /* Style adjustments for viewports that meet the condition */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }

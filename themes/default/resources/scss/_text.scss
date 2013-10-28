@@ -1,0 +1,123 @@
+/*
+Copyright (c) 2010,.text  Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.2r1
+*/
+.text body{margin:10px;}.text h1{font-size:138.5%;}.text h2{font-size:123.1%;}.text h3{font-size:108%;}.text h1,.text h2,.text h3{margin:1em 0;}.text h1,.text h2,.text h3,.text h4,.text h5,.text h6,.text strong,.text dt{font-weight:bold;}.text optgroup{font-weight:normal;}.text abbr,.text acronym{border-bottom:1px dotted #000;cursor:help;}.text em{font-style:italic;}.text del{text-decoration:line-through;}.text blockquote,.text ul,.text ol,.text dl{margin:1em;}.text ol,.text ul,.text dl{margin-left:2em;}.text ol li{list-style:decimal outside;}.text ul li{list-style:disc outside;}.text dl dd{margin-left:1em;}.text th,.text td{padding:.5em;}.text th{font-weight:bold;text-align:center;}.text caption{margin-bottom:.5em;text-align:center;}.text sup{vertical-align:super;}.text sub{vertical-align:sub;}.text p,.text fieldset,.text table,.text pre{margin-bottom:1em;}.text button,.text input[type="checkbox"],.text input[type="radio"],.text input[type="reset"],.text input[type="submit"]{padding:1px;}
+
+
+.text {
+	color: #333;
+	font-family:Arial, Tahoma, Geneva, sans-serif;
+}
+	.text h1, .text h2, .text h3, .text h4, .text h5, .text h6 {
+		background:none;
+		color: #22A79C;
+		font-weight:normal;
+		margin-bottom:15px;
+		padding:0;
+	}
+	.text h1 { font-size:20px; }
+	.text h2 { font-size:18px; }
+	.text h3 { font-size:16px; }
+	.text h4 { font-size:14px; }
+	.text h5 { font-size:12px; }
+	.text h6 { font-size:10px; }
+	.text p {
+		line-height: 1.6em;
+		overflow: hidden;
+
+		&:first-child { margin-top: 0; }
+		&:last-child { margin-bottom: 0; }
+	}
+	.text a {
+		color:#F00;
+		text-decoration:none;
+	}
+	.text a:hover {
+		text-decoration:underline;
+	}
+	.text strong, .text b {
+		font-weight:bold;
+	}
+	.text em, .text i, .text address {
+		font-style:italic;
+	}
+	.text p, .text ul, .text ol, .text dd, .text pre, .text hr {
+		margin:0 0 5px 0;
+	}
+	.text ul {
+		padding-left:15px;
+	}
+	.text ol {
+		padding-left:20px;
+	}
+	.text hr {
+		border: 1px inset;
+		border-color:#000;
+		border-style:solid;
+	}
+	.text pre {
+		background-color:#F7F7F7;
+		color:#222222;
+		font-family:"Courier 10 Pitch",Courier,monospace !important;
+		padding:1.5em;
+		white-space:pre;
+	}
+	.text pre, .text kbd, .text tt, .text var {
+		font-size:15px;
+		line-height:21px;
+	}
+	.text blockquote {
+		margin:12px 40px;
+	}
+	.text li {
+		line-height:1.8em;
+	}
+	.text table {
+		border-collapse:separate;
+		border-spacing:2px;
+	}
+	.text table td {
+		vertical-align:top;
+	}
+	.text .wp-caption {
+		text-align: center;
+		background-color: #f3f3f3;
+		padding-top: 4px;
+		margin: 10px;
+		-moz-border-radius: 3px;
+		-khtml-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.text .wp-caption caption {
+		background-color: #f3f3f3;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-topright:3px;
+
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-top-right-radius:3px;
+
+		border-top-left-radius:3px;
+		border-top-right-radius:3px;
+	}
+	.text .aligncenter,
+	.text dl.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.text .alignleft {
+		float: left;
+	}
+	.text .alignright {
+		float: right;
+	}
+
+	.text ins {border-bottom:1px solid green; text-decoration: none; color:green}
+	.text del {color:red; text-decoration:line-through}
+	.text cite {border-bottom:1px dashed blue}
+	.text acronym {border-bottom:1px dotted #CCC; cursor:help}
+	.text abbr, .text html\:abbr {border-bottom:1px dashed #CCC; cursor:help}

@@ -1,0 +1,9 @@
+/* line 32, ../scss/join-alliance.scss */
+.container-block .page-title { background: url('../images/join-alliance-title.png?1381660705') 0 50% no-repeat; padding-left: 140px; }
+/* line 39, ../scss/join-alliance.scss */
+.container-block .articles h2 { color: #22A79C; font-size: 16px; font-weight: normal; margin: 0 0 10px; }
+/* line 46, ../scss/join-alliance.scss */
+.container-block .articles > article { margin-bottom: 20px; }
+
+@media only screen and (min-width: 35em) { /* Style adjustments for viewports that meet the condition */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }

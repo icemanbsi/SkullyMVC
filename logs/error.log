@@ -1,294 +1,93 @@
-post: Array
-(
-    [value] => <h2>SkullyMVC is not Rails, nor Yii</h2>
-
-<ul>
-	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
-	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
-	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
-</ul>
-
-<h2>SkullyMVC is not Wordpress, either</h2>
-
-<ul>
-	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
-	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
-</ul>
-
-    [submit] => save
-)
-
-value is <h2>SkullyMVC is not Rails, nor Yii</h2>
-
-<ul>
-	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
-	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
-	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
-</ul>
-
-<h2>SkullyMVC is not Wordpress, either</h2>
-
-<ul>
-	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
-	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
-</ul>
-
-entries after edit: Array
-(
-    [topContent] => <h1>SkullyMVC</h1>
-
-<p>The simplest MVC framework, ever!</p>
-
-    [mainContent] => <h2>SkullyMVC is not Rails, nor Yii</h2>
-
-<ul>
-	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
-	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
-	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
-</ul>
-
-<h2>SkullyMVC is not Wordpress, either</h2>
-
-<ul>
-	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
-	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
-</ul>
-
-)
-
-post: Array
-(
-    [value] => <h2>SkullyMVC is not Rails, nor Yii</h2>
-
-<ul>
-	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
-	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
-	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
-</ul>
-
-<h2>SkullyMVC is not Wordpress, either</h2>
-
-<ul>
-	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
-	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
-</ul>
-
-    [submit] => save
-)
-
-value is <h2>SkullyMVC is not Rails, nor Yii</h2>
-
-<ul>
-	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
-	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
-	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
-</ul>
-
-<h2>SkullyMVC is not Wordpress, either</h2>
-
-<ul>
-	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
-	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
-</ul>
-
-entries after edit: Array
-(
-    [topContent] => <h1>SkullyMVC</h1>
-
-<p>The simplest MVC framework, ever!</p>
-
-    [mainContent] => <h2>SkullyMVC is not Rails, nor Yii</h2>
-
-<ul>
-	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
-	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
-	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
-</ul>
-
-<h2>SkullyMVC is not Wordpress, either</h2>
-
-<ul>
-	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
-	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
-</ul>
-
-)
-
-post: Array
-(
-    [data] => {"topContent":"<h1>SkullyMVC</h1>\n\n<p>The simplest MVC framework, ever!</p>\n","mainContent":"<h2>SkullyMVC is not Rails, nor Yii</h2>\n\n<ul>\n\t<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>\n\t<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>\n\t<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>\n</ul>\n\n<h2>SkullyMVC is not Wordpress, either</h2>\n\n<ul>\n\t<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.</li>\n\t<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>\n</ul>\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"<h1>SkullyMVC</h1>\n\n<p>The simplest MVC framework, ever!</p>\n","mainContent":"<h2>SkullyMVC is not Rails, nor Yii</h2>\n\n<ul>\n\t<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>\n\t<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>\n\t<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>\n</ul>\n\n<h2>SkullyMVC is not Wordpress, either</h2>\n\n<ul>\n\t<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.</li>\n\t<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>\n</ul>\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"<h1>SkullyMVC</h1>\n\n<p>The simplest MVC framework, ever!</p>\n","mainContent":"<h2>SkullyMVC is not Rails, nor Yii</h2>\n\n<ul>\n\t<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>\n\t<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>\n\t<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>\n</ul>\n\n<h2>SkullyMVC is not Wordpress, either</h2>\n\n<ul>\n\t<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.</li>\n\t<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>\n</ul>\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;\n","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;\n<div>test</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;<br><div>&lt;p&gt;test123&lt;/p&gt;</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;<div>;lk</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;<div>test</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;test","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;test","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"test1<div>test2</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;<div><br></div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
-    [submit] => Save
-)
-
-post: Array
-(
-    [value] => <h2>SkullyMVC is not Rails, nor Yii</h2>
-
-<ul>
-	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
-	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
-	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
-</ul>
-
-<h2>SkullyMVC is not Wordpress, either</h2>
-
-<ul>
-	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
-	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
-</ul>
-
-    [submit] => save
-)
-
-value is <h2>SkullyMVC is not Rails, nor Yii</h2>
-
-<ul>
-	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
-	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
-	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
-</ul>
-
-<h2>SkullyMVC is not Wordpress, either</h2>
-
-<ul>
-	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
-	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
-</ul>
-
-entries after edit: Array
-(
-    [topContent] => <h1>SkullyMVC</h1>
-
-<p>The simplest MVC framework, ever!</p>
-    [mainContent] => <h2>SkullyMVC is not Rails, nor Yii</h2>
-
-<ul>
-	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
-	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
-	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
-</ul>
-
-<h2>SkullyMVC is not Wordpress, either</h2>
-
-<ul>
-	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
-	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
-</ul>
-
-)
-
-[14-Oct-2013 09:43:51 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
-[14-Oct-2013 09:44:10 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
-[14-Oct-2013 09:44:10 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
-[14-Oct-2013 09:44:10 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
-[16-Oct-2013 08:12:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
-[16-Oct-2013 08:12:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
-[16-Oct-2013 08:12:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
-[17-Oct-2013 08:11:48 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
-[17-Oct-2013 08:11:48 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
-[17-Oct-2013 08:11:48 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
-[18-Oct-2013 08:02:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
-[18-Oct-2013 08:02:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
-[18-Oct-2013 08:02:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
-[18-Oct-2013 13:31:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
-[18-Oct-2013 13:31:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
-[18-Oct-2013 13:31:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
-[21-Oct-2013 08:20:09 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
-[21-Oct-2013 08:20:09 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
-[21-Oct-2013 08:20:09 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
+[28-Oct-2013 12:29:56 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:40 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:40 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:48 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:48 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:48 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:21:12 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:23:16 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:23:19 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:23:19 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:23:19 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:32:55 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to read template file 'wrappers/main'' in /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_resource_file.php:70
+Stack trace:
+#0 /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_resource.php(779): Smarty_Internal_Resource_File->getContent(Object(Smarty_Template_Source))
+#1 /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_compile_extends.php(119): Smarty_Template_Source->__get('content')
+#2 /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Extends->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase->callTagCompiler('extends', Array, Array)
+#4 /Library/WebServer/Docu in /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_resource_file.php on line 70
+[28-Oct-2013 13:33:12 Asia/Jakarta] PHP Fatal error:  Cannot use object of type App\Models\Page as array in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 13:33:19 Asia/Jakarta] PHP Fatal error:  Cannot use object of type App\Models\Page as array in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:30:42 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /Library/WebServer/Documents/randl/library/activeRecord/ModelQuery.php on line 27
+[28-Oct-2013 14:32:11 Asia/Jakarta] PHP Notice:  Undefined index: id in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:32:11 Asia/Jakarta] PHP Notice:  Undefined index: id in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:32:39 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:32:47 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:42 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:42 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 337
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 237
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 251
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 337
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:38:05 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:38:09 Asia/Jakarta] PHP Notice:  Undefined index: en_us in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:38:09 Asia/Jakarta] PHP Notice:  Undefined index: en_us in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
