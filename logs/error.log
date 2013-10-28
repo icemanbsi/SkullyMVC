@@ -1,0 +1,294 @@
+post: Array
+(
+    [value] => <h2>SkullyMVC is not Rails, nor Yii</h2>
+
+<ul>
+	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
+	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
+	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
+</ul>
+
+<h2>SkullyMVC is not Wordpress, either</h2>
+
+<ul>
+	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
+	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
+</ul>
+
+    [submit] => save
+)
+
+value is <h2>SkullyMVC is not Rails, nor Yii</h2>
+
+<ul>
+	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
+	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
+	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
+</ul>
+
+<h2>SkullyMVC is not Wordpress, either</h2>
+
+<ul>
+	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
+	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
+</ul>
+
+entries after edit: Array
+(
+    [topContent] => <h1>SkullyMVC</h1>
+
+<p>The simplest MVC framework, ever!</p>
+
+    [mainContent] => <h2>SkullyMVC is not Rails, nor Yii</h2>
+
+<ul>
+	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
+	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
+	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
+</ul>
+
+<h2>SkullyMVC is not Wordpress, either</h2>
+
+<ul>
+	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
+	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
+</ul>
+
+)
+
+post: Array
+(
+    [value] => <h2>SkullyMVC is not Rails, nor Yii</h2>
+
+<ul>
+	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
+	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
+	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
+</ul>
+
+<h2>SkullyMVC is not Wordpress, either</h2>
+
+<ul>
+	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
+	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
+</ul>
+
+    [submit] => save
+)
+
+value is <h2>SkullyMVC is not Rails, nor Yii</h2>
+
+<ul>
+	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
+	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
+	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
+</ul>
+
+<h2>SkullyMVC is not Wordpress, either</h2>
+
+<ul>
+	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
+	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
+</ul>
+
+entries after edit: Array
+(
+    [topContent] => <h1>SkullyMVC</h1>
+
+<p>The simplest MVC framework, ever!</p>
+
+    [mainContent] => <h2>SkullyMVC is not Rails, nor Yii</h2>
+
+<ul>
+	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
+	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
+	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
+</ul>
+
+<h2>SkullyMVC is not Wordpress, either</h2>
+
+<ul>
+	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
+	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
+</ul>
+
+)
+
+post: Array
+(
+    [data] => {"topContent":"<h1>SkullyMVC</h1>\n\n<p>The simplest MVC framework, ever!</p>\n","mainContent":"<h2>SkullyMVC is not Rails, nor Yii</h2>\n\n<ul>\n\t<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>\n\t<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>\n\t<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>\n</ul>\n\n<h2>SkullyMVC is not Wordpress, either</h2>\n\n<ul>\n\t<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.</li>\n\t<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>\n</ul>\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"<h1>SkullyMVC</h1>\n\n<p>The simplest MVC framework, ever!</p>\n","mainContent":"<h2>SkullyMVC is not Rails, nor Yii</h2>\n\n<ul>\n\t<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>\n\t<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>\n\t<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>\n</ul>\n\n<h2>SkullyMVC is not Wordpress, either</h2>\n\n<ul>\n\t<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.</li>\n\t<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>\n</ul>\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"<h1>SkullyMVC</h1>\n\n<p>The simplest MVC framework, ever!</p>\n","mainContent":"<h2>SkullyMVC is not Rails, nor Yii</h2>\n\n<ul>\n\t<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>\n\t<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>\n\t<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>\n</ul>\n\n<h2>SkullyMVC is not Wordpress, either</h2>\n\n<ul>\n\t<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.</li>\n\t<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>\n</ul>\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;\n","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;\n<div>test</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;<br><div>&lt;p&gt;test123&lt;/p&gt;</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;<div>;lk</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;<div>test</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;test","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;test","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"test1<div>test2</div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;<div><br></div>","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [data] => {"topContent":"&lt;h1&gt;SkullyMVC&lt;/h1&gt;\n\n&lt;p&gt;The simplest MVC framework, ever!&lt;/p&gt;","mainContent":"&lt;h2&gt;SkullyMVC is not Rails, nor Yii&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP&lt;/li&gt;\n\t&lt;li&gt;SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.&lt;/li&gt;\n\t&lt;li&gt;Treat the code just like one of your own. Edit anything you feel required. Add &lt;strong&gt;ANY&lt;/strong&gt;&amp;nbsp;PHP plugin.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;SkullyMVC is not Wordpress, either&lt;/h2&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won't get CMS-like capabilities, not directly as you install, anyway.&lt;/li&gt;\n\t&lt;li&gt;Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.&lt;/li&gt;\n&lt;/ul&gt;\n"}
+    [submit] => Save
+)
+
+post: Array
+(
+    [value] => <h2>SkullyMVC is not Rails, nor Yii</h2>
+
+<ul>
+	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
+	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
+	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
+</ul>
+
+<h2>SkullyMVC is not Wordpress, either</h2>
+
+<ul>
+	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
+	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
+</ul>
+
+    [submit] => save
+)
+
+value is <h2>SkullyMVC is not Rails, nor Yii</h2>
+
+<ul>
+	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
+	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
+	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
+</ul>
+
+<h2>SkullyMVC is not Wordpress, either</h2>
+
+<ul>
+	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
+	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
+</ul>
+
+entries after edit: Array
+(
+    [topContent] => <h1>SkullyMVC</h1>
+
+<p>The simplest MVC framework, ever!</p>
+    [mainContent] => <h2>SkullyMVC is not Rails, nor Yii</h2>
+
+<ul>
+	<li>The elegance of this framework is in its mobility. You can deploy it anywhere with ease since it is written in PHP</li>
+	<li>SkullyMVC was never intended for complex module-inheritance system. There is no core module anywhere. It is simply a skeleton to help you started on an MVC structure.</li>
+	<li>Treat the code just like one of your own. Edit anything you feel required. Add <strong>ANY</strong>&nbsp;PHP plugin.</li>
+</ul>
+
+<h2>SkullyMVC is not Wordpress, either</h2>
+
+<ul>
+	<li>There is a reason this framework is called SkullyMVC, not SkullyCMS. Nope, you won&#39;t get CMS-like capabilities, not directly as you install, anyway.</li>
+	<li>Instead, with this piece of framework you can build anything you like. You can quickly build your own Multi-language CMS with this. Do you want a CMS without database? Yes you can have it directly? Do you want a shopping cart? With some effort, sure you can build it yourself.</li>
+</ul>
+
+)
+
+[14-Oct-2013 09:43:51 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
+[14-Oct-2013 09:44:10 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
+[14-Oct-2013 09:44:10 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
+[14-Oct-2013 09:44:10 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
+[16-Oct-2013 08:12:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
+[16-Oct-2013 08:12:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
+[16-Oct-2013 08:12:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
+[17-Oct-2013 08:11:48 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
+[17-Oct-2013 08:11:48 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
+[17-Oct-2013 08:11:48 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
+[18-Oct-2013 08:02:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
+[18-Oct-2013 08:02:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
+[18-Oct-2013 08:02:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
+[18-Oct-2013 13:31:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
+[18-Oct-2013 13:31:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
+[18-Oct-2013 13:31:29 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
+[21-Oct-2013 08:20:09 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
+[21-Oct-2013 08:20:09 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
+[21-Oct-2013 08:20:09 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152

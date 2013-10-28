@@ -1,0 +1,2 @@
+@compress resources/js/all.js
+  resources/js_unpacked/main.js

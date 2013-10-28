@@ -1,0 +1,8 @@
+{
+	"mainTitle": "Skully MVC",
+	"mainMetaTitle": "SkullyMVC",
+	"mainMetaDesc": "The simplest MVC",
+	"mainMetaKey": "SkullyMVC",
+	"notFound" : "Not Found",
+	"notFoundTitle": "You are trying to access a page that doesn't exist. Try another one."
+}
