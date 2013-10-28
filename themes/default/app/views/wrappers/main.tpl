@@ -41,25 +41,25 @@
 		</div>
 
 		<div class="nav-block">
-			<h1 class="page-logo"><a href="index.html"></a><embed width="320" height="100" src="{$baseUrl}images/logo.swf" quality="high" pluginspage="http://www.adobe.com/go/getflashplayer" align="middle" play="true" loop="true" scale="showall" wmode="window" devicefont="false" bgcolor="#fff" name="logo" menu="true" allowfullscreen="false" allowscriptaccess="sameDomain" salign="" type="application/x-shockwave-flash"></h1>
+			<h1 class="page-logo"><a href="{url path="home/index"}"></a><embed width="320" height="100" src="{$baseUrl}images/logo.swf" quality="high" pluginspage="http://www.adobe.com/go/getflashplayer" align="middle" play="true" loop="true" scale="showall" wmode="window" devicefont="false" bgcolor="#fff" name="logo" menu="true" allowfullscreen="false" allowscriptaccess="sameDomain" salign="" type="application/x-shockwave-flash"></h1>
 
 			<nav class="main-nav">
 				<ul class="reset-ul clearfix">
 					<li class="parent">
-						<a href="introduction.html" class="introduction">聯盟簡介</a>
+						<a href="{url path="pages/view" page="introduction"}" class="introduction">聯盟簡介</a>
 						<ul class="reset-ul">
-							<li class="sub"><a href="introduction-articles.html"></a></li>
-							<li class="sub"><a href="introduction.html"></a></li>
+							<li class="sub"><a href="{url path="pages/view" page="introduction"}"></a></li>
+							<li class="sub"><a href="{url path="pages/view" page="services"}"></a></li>
 						</ul>
 					</li>
 					<li class="parent">
-						<a href="members.html" class="members">聯盟成員</a>
+						<a href="{url path="members/index"}" class="members">聯盟成員</a>
 						<ul class="reset-ul">
-							<li class="sub"><a href="members.html">節能設計</a></li>
-							<li class="sub"><a href="members.html">系統設備</a></li>
-							<li class="sub"><a href="members.html">綠色能源</a></li>
-							<li class="sub"><a href="members.html">能源管理</a></li>
-							<li class="sub"><a href="members-branch.html">服務據點</a></li>
+							<li class="sub"><a href="{url path="members/index"}">節能設計</a></li>
+							<li class="sub"><a href="{url path="members/index"}">系統設備</a></li>
+							<li class="sub"><a href="{url path="members/index"}">綠色能源</a></li>
+							<li class="sub"><a href="{url path="members/index"}">能源管理</a></li>
+							<li class="sub"><a href="{url path="members/branch"}">服務據點</a></li>
 						</ul>
 					</li>
 					<li class="parent"><a href="products.html" class="products">綠色產品</a></li>

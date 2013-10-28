@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-10-28 14:48:21
-         compiled from "/Library/WebServer/Documents/randl/themes/default/app/views/home/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2125219457526dd0dd496a30-72000302%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.13, created on 2013-10-28 15:00:36
+         compiled from "/Library/WebServer/Documents/randl/themes/default/app/views/pages/page.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1904575227526e19a4c5b531-79720241%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '575f93878291bdb7de6bbfc6d5036edba56651d2' => 
+    'e359e6fa84da1ccdcca6261a0055b4df9ecbdf75' => 
     array (
-      0 => '/Library/WebServer/Documents/randl/themes/default/app/views/home/index.tpl',
-      1 => 1382937880,
+      0 => '/Library/WebServer/Documents/randl/themes/default/app/views/pages/page.tpl',
+      1 => 1382945552,
       2 => 'file',
     ),
     '85354057dbe187615dc357dace0e2ac89cd3b70b' => 
@@ -17,20 +17,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2125219457526dd0dd496a30-72000302',
+  'nocache_hash' => '1904575227526e19a4c5b531-79720241',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_526dd0dd525195_59738581',
   'variables' => 
   array (
     'baseUrl' => 0,
     'themeUrl' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_526e19a4cfabc7_04425753',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_526dd0dd525195_59738581')) {function content_526dd0dd525195_59738581($_smarty_tpl) {?><?php if (!is_callable('smarty_function_lang')) include '/Library/WebServer/Documents/randl/app/smarty/plugins/function.lang.php';
+<?php if ($_valid && !is_callable('content_526e19a4cfabc7_04425753')) {function content_526e19a4cfabc7_04425753($_smarty_tpl) {?><?php if (!is_callable('smarty_function_lang')) include '/Library/WebServer/Documents/randl/app/smarty/plugins/function.lang.php';
 if (!is_callable('smarty_function_url')) include '/Library/WebServer/Documents/randl/app/smarty/plugins/function.url.php';
 ?>
 <!DOCTYPE html>
@@ -42,7 +42,8 @@ if (!is_callable('smarty_function_url')) include '/Library/WebServer/Documents/r
 <?php echo $_smarty_tpl->getSubTemplate ("wrappers/items/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 
-<title></title>
+<title><?php echo $_smarty_tpl->tpl_vars['page']->value['title'][$_smarty_tpl->tpl_vars['xmlLang']->value];?>
+</title>
 
 
 	<meta name="description" content="<?php echo smarty_function_lang(array('value'=>"mainMetaDesc"),$_smarty_tpl);?>
@@ -52,7 +53,7 @@ if (!is_callable('smarty_function_url')) include '/Library/WebServer/Documents/r
 
 
 <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['themeUrl']->value;?>
-resources/css/home.css">
+resources/css/introduction.css">
 
 </head>
 <body>
@@ -119,37 +120,13 @@ images/logo.swf" quality="high" pluginspage="http://www.adobe.com/go/getflashpla
 
 	<div class="container-block clearfix">
 		
-<div class="content-block">
-	<section class="newsletter">
-		<header><h1 class="page-title"></h1></header>
+<div class="container-block">
+	<header><h1 class="page-title"><small><a href="index.html">首頁</a> &raquo; <a href="introduction.html">聯盟簡介</a> &raquo; 聯盟服務</small></h1></header>
 
-		<div class="content">
-			<ul class="reset-ul">
-				<li><a href="news-detail.html"><span class="date">2013/09/08</span><span class="title">2013台灣國際綠色產業展</span></a></li>
-				<li><a href="news-detail.html"><span class="date">2013/09/08</span><span class="title">第4屆馬來西亞國際綠色科技及環保產品展(IGEM2013)</span></a></li>
-				<li><a href="news-detail.html"><span class="date">2013/09/08</span><span class="title">2013台南生技綠能博覽會</span></a></li>
-				<li><a href="news-detail.html"><span class="date">2013/09/08</span><span class="title">環保及綠建築產業拓銷團</span></a></li>
-				<li><a href="news-detail.html"><span class="date">2013/09/08</span><span class="title">「海外參展須知及中小企業投資融資輔導介紹」研討會</span></a></li>
-			</ul>
-		</div>
-	</section>
+	<div class="content-block">
+		<?php echo $_smarty_tpl->tpl_vars['page']->value['content'][$_smarty_tpl->tpl_vars['xmlLang']->value];?>
 
-	<section class="member">
-		<header><h1 class="page-title"></h1></header>
-
-		<div class="content clearfix">
-			<a href="members.html">節能設計</a>
-			<a href="members.html">系統設備</a>
-			<a href="members.html">綠色能源</a>
-			<a href="members.html">能源管理</a>
-		</div>
-	</section>
-</div>
-
-<div class="sidebar">
-	<a href="join-alliance.html"></a>
-	<a href="news.html"></a>
-	<a href="products.html"></a>
+	</div>
 </div>
 
 	</div>

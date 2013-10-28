@@ -15,9 +15,10 @@ class PagesController extends BaseController {
 
 		$data = \App\Models\Page::model()->getPage($page, true);
 		if(!$data)
-			$page = "notFound";
+			$template = "notFound";
+		else $template = "page";
 
-		$this->render($page, array(
+		$this->render($template, array(
 			"page" => $data
 		));
 	}

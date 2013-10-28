@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-10-28 14:32:38
+<?php /* Smarty version Smarty-3.1.13, created on 2013-10-28 14:48:19
          compiled from "/Library/WebServer/Documents/randl/themes/default/app/views/pages/introduction.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1793623082526e0528128423-94678137%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '85354057dbe187615dc357dace0e2ac89cd3b70b' => 
     array (
       0 => '/Library/WebServer/Documents/randl/themes/default/app/views/wrappers/main.tpl',
-      1 => 1382929629,
+      1 => 1382946497,
       2 => 'file',
     ),
   ),
@@ -31,6 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_526e05281ffd83_99397962')) {function content_526e05281ffd83_99397962($_smarty_tpl) {?><?php if (!is_callable('smarty_function_lang')) include '/Library/WebServer/Documents/randl/app/smarty/plugins/function.lang.php';
+if (!is_callable('smarty_function_url')) include '/Library/WebServer/Documents/randl/app/smarty/plugins/function.url.php';
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -81,7 +82,8 @@ resources/css/introduction.css">
 		</div>
 
 		<div class="nav-block">
-			<h1 class="page-logo"><a href="index.html"></a><embed width="320" height="100" src="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+			<h1 class="page-logo"><a href="<?php echo smarty_function_url(array('path'=>"home/index"),$_smarty_tpl);?>
+"></a><embed width="320" height="100" src="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
 images/logo.swf" quality="high" pluginspage="http://www.adobe.com/go/getflashplayer" align="middle" play="true" loop="true" scale="showall" wmode="window" devicefont="false" bgcolor="#fff" name="logo" menu="true" allowfullscreen="false" allowscriptaccess="sameDomain" salign="" type="application/x-shockwave-flash"></h1>
 
 			<nav class="main-nav">
@@ -89,8 +91,10 @@ images/logo.swf" quality="high" pluginspage="http://www.adobe.com/go/getflashpla
 					<li class="parent">
 						<a href="introduction.html" class="introduction">聯盟簡介</a>
 						<ul class="reset-ul">
-							<li class="sub"><a href="introduction-articles.html"></a></li>
-							<li class="sub"><a href="introduction.html"></a></li>
+							<li class="sub"><a href="<?php echo smarty_function_url(array('path'=>"pages/view",'page'=>"introduction"),$_smarty_tpl);?>
+"></a></li>
+							<li class="sub"><a href="<?php echo smarty_function_url(array('path'=>"pages/view",'page'=>"services"),$_smarty_tpl);?>
+"></a></li>
 						</ul>
 					</li>
 					<li class="parent">
