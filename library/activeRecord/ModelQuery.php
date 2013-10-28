@@ -64,7 +64,9 @@ class ModelQuery {
 //		// errorLog($this->sql);
 //		// errorLog("after first called, rs is: " . print_r($rs, true));
 //		// errorLog("first sql is " . $this->sql);
+
 		$langFields = call_user_func(array($this->class_name, 'langFields'));
+
 		if (!empty($rs)) {
 			if(!$asArray) $object = new $this->class_name();
 			foreach($rs[0] as $key => $value) {
