@@ -1,3 +1,5 @@
+RewriteBase /SkullyMVC
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -10,5 +12,5 @@ RewriteCond %{HTTP_HOST} !^sitename\.com$
 RewriteRule ^(.*)$ http://sitename.com/$1 [R=301,L]
 
 # enable PHP error logging
-php_flag  log_errors on
-php_value error_log  logs/error.log
+#php_flag  log_errors on
+#php_value error_log  logs/error.log
