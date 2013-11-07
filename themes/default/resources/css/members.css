@@ -1,0 +1,130 @@
+/* line 19, ../scss/members.scss */
+.main-header { margin-bottom: 40px; }
+
+/* line 21, ../scss/members.scss */
+.header-bg { background: url('../images/members-header-bg.jpg?1381641331') 0 0 no-repeat; height: 285px; }
+
+/* line 36, ../scss/members.scss */
+.container-block { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-right: 35px; }
+/* line 40, ../scss/members.scss */
+.container-block > header { margin-bottom: 25px; }
+/* line 42, ../scss/members.scss */
+.container-block .page-title { background: url('../images/members-title.png?1381669561') 0 50% no-repeat; padding-left: 140px; margin-bottom: 10px; }
+/* line 48, ../scss/members.scss */
+.container-block .member-nav { border-top: 1px solid #22A79C; border-bottom: 1px solid #22A79C; }
+/* line 52, ../scss/members.scss */
+.container-block .member-nav li { float: left; }
+/* line 55, ../scss/members.scss */
+.container-block .member-nav li:nth-child(1) a { background-position: 0 0; }
+/* line 56, ../scss/members.scss */
+.container-block .member-nav li:nth-child(2) a { background-position: -2px -30px; }
+/* line 57, ../scss/members.scss */
+.container-block .member-nav li:nth-child(3) a { background-position: -5px -60px; }
+/* line 58, ../scss/members.scss */
+.container-block .member-nav li:nth-child(4) a { background-position: -5px -90px; }
+/* line 60, ../scss/members.scss */
+.container-block .member-nav li:nth-child(1) a.active { background-position: 0 -120px; }
+/* line 61, ../scss/members.scss */
+.container-block .member-nav li:nth-child(2) a.active { background-position: -2px -150px; }
+/* line 62, ../scss/members.scss */
+.container-block .member-nav li:nth-child(3) a.active { background-position: -5px -180px; }
+/* line 63, ../scss/members.scss */
+.container-block .member-nav li:nth-child(4) a.active { background-position: -5px -210px; }
+/* line 66, ../scss/members.scss */
+.container-block .member-nav a { background: url('../images/members-menu-sprite.png?1381670375') 0 0 no-repeat; color: #22A79C; display: block; padding: 0 10px 0 30px; text-decoration: none; line-height: 30px; }
+/* line 74, ../scss/members.scss */
+.container-block .member-nav a.active { background-color: #22A79C; color: #fff; }
+
+/* line 84, ../scss/members.scss */
+.member-content { border: 1px solid #E0E0E0; float: left; margin: 0 15px 15px 0; position: relative; width: 178px; }
+/* line 91, ../scss/members.scss */
+.member-content:nth-child(4n) { margin-right: 0; }
+/* line 93, ../scss/members.scss */
+.member-content a { display: block; height: 100%; top: 0; left: 0; position: absolute; width: 100%; }
+/* line 102, ../scss/members.scss */
+.member-content figure { height: 100px; overflow: hidden; }
+/* line 106, ../scss/members.scss */
+.member-content figure span { display: table-cell; height: 100px; text-align: center; vertical-align: middle; width: 178px; }
+/* line 114, ../scss/members.scss */
+.member-content figure img { max-height: 100%; max-width: 100%; }
+/* line 120, ../scss/members.scss */
+.member-content header { background-color: #E0E0E0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; height: 55px; padding: 10px 5px; overflow: hidden; }
+/* line 127, ../scss/members.scss */
+.member-content header > div { text-align: center; font-size: 11px; max-height: 3em; overflow: hidden; }
+
+/* line 136, ../scss/members.scss */
+.pagination-block { font-size: 11px; margin-top: 15px; text-align: right; }
+/* line 141, ../scss/members.scss */
+.pagination-block span, .pagination-block select, .pagination-block div, .pagination-block a { display: inline-block; }
+/* line 143, ../scss/members.scss */
+.pagination-block a { background-color: #E0DDDE; color: #666666; text-decoration: none; padding: 0 5px; line-height: 18px; }
+/* line 150, ../scss/members.scss */
+.pagination-block a.active { background-color: #22A79C; color: #fff; }
+/* line 156, ../scss/members.scss */
+.pagination-block .pagination { margin-left: 15px; }
+
+/* line 161, ../scss/members.scss */
+.member-detail-block { margin-top: 20px; }
+
+/* line 165, ../scss/members.scss */
+.md-detail { display: none; }
+/* line 168, ../scss/members.scss */
+.md-detail.md-open { display: block; }
+/* line 170, ../scss/members.scss */
+.md-detail footer { margin-top: 30px; text-align: right; }
+/* line 175, ../scss/members.scss */
+.md-detail .member-nav { background: url('../images/news-nav.png?1381664993') 0 0 no-repeat; display: inline-block; height: 19px; }
+/* line 180, ../scss/members.scss */
+.md-detail .member-nav { border: none 0; }
+/* line 182, ../scss/members.scss */
+.md-detail .member-nav.prev, .md-detail .member-nav.next { width: 19px; }
+/* line 183, ../scss/members.scss */
+.md-detail .member-nav.prev { background-position: 0 0; }
+/* line 184, ../scss/members.scss */
+.md-detail .member-nav.next { background-position: -22px 0; }
+/* line 186, ../scss/members.scss */
+.md-detail .member-nav.return { background-position: -44px 0; width: 39px; }
+
+/* line 193, ../scss/members.scss */
+.md-header { margin-bottom: 20px; }
+/* line 196, ../scss/members.scss */
+.md-header figure { border: 1px solid #F2F2F2; float: left; width: 368px; }
+/* line 201, ../scss/members.scss */
+.md-header figure span { display: table-cell; height: 223px; text-align: center; vertical-align: middle; width: 368px; }
+/* line 210, ../scss/members.scss */
+.md-header .md-meta { margin-left: 400px; }
+/* line 213, ../scss/members.scss */
+.md-header .md-meta h1 { color: #006193; font-size: 22px; font-weight: normal; margin: 0 0 10px; }
+/* line 221, ../scss/members.scss */
+.md-header .md-meta-group { font-size: 14px; margin-bottom: 5px; overflow: hidden; }
+/* line 226, ../scss/members.scss */
+.md-header .md-meta-group:last-child { margin-bottom: 0; }
+/* line 227, ../scss/members.scss */
+.md-header .md-meta-group, .md-header .md-meta-group a { color: #4D4D4D; }
+/* line 229, ../scss/members.scss */
+.md-header .md-meta-group a { text-decoration: none; }
+/* line 232, ../scss/members.scss */
+.md-header .md-meta-group a:hover { text-decoration: underline; }
+/* line 235, ../scss/members.scss */
+.md-header .md-meta-group span { display: block; }
+/* line 237, ../scss/members.scss */
+.md-header .md-meta-group .label { float: left; width: 80px; }
+/* line 242, ../scss/members.scss */
+.md-header .md-meta-group .value { margin-left: 80px; position: relative; padding-left: 10px; }
+/* line 247, ../scss/members.scss */
+.md-header .md-meta-group .value:before { content: ":"; position: absolute; left: 0; top: 0; }
+/* line 257, ../scss/members.scss */
+.md-header .md-meta-footer { margin-top: 20px; }
+/* line 259, ../scss/members.scss */
+.md-header .md-meta-btn { background: url('../images/member-detail-header-btn.png?1381736539') 0 0 no-repeat; display: inline-block; height: 19px; }
+/* line 264, ../scss/members.scss */
+.md-header .md-meta-btn.md-product-chinese { background-position: 0 0; width: 62px; }
+/* line 268, ../scss/members.scss */
+.md-header .md-meta-btn.md-english { background-position: -69px 0; width: 55px; }
+/* line 272, ../scss/members.scss */
+.md-header .md-meta-btn.md-product-english { background-position: 0 -19px; width: 64px; }
+/* line 276, ../scss/members.scss */
+.md-header .md-meta-btn.md-chinese { background-position: -71px -19px; width: 56px; }
+
+@media only screen and (min-width: 35em) { /* Style adjustments for viewports that meet the condition */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }

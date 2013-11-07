@@ -1,0 +1,5 @@
+/* line 1, ../scss/site.scss */
+.nomargin { margin: 0; }
+
+/* line 6, ../scss/site.scss */
+.well h1, .well h2, .well h3, .well h4, .well h5, .well h6 { margin-top: 0; font-size: 24px; }

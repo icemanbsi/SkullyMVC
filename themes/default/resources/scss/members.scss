@@ -1,0 +1,346 @@
+@import "template";
+
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// DEFAULT
+// ==========================================================================
+
+.main-header { margin-bottom: 40px; }
+
+.header-bg {
+	background: image-url('members-header-bg.jpg') 0 0 no-repeat;
+	height: 285px;
+}
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MAIN CONTAINER
+// ==========================================================================
+
+.container-block {
+	@include box-sizing(border-box);
+	padding-right: 35px;
+
+	& > header { margin-bottom: 25px; }
+
+	.page-title {
+		background: image-url('members-title.png') 0 50% no-repeat;
+		padding-left: 140px;
+		margin-bottom: 10px;
+	}
+
+	.member-nav {
+		border-top: 1px solid #22A79C;
+		border-bottom: 1px solid #22A79C;
+
+		li {
+			float: left;
+
+			&:nth-child(1) a { background-position: 0 0; }
+			&:nth-child(2) a { background-position: -2px -30px; }
+			&:nth-child(3) a { background-position: -5px -60px; }
+			&:nth-child(4) a { background-position: -5px -90px; }
+
+			&:nth-child(1) a.active { background-position: 0 -120px; }
+			&:nth-child(2) a.active { background-position: -2px -150px; }
+			&:nth-child(3) a.active { background-position: -5px -180px; }
+			&:nth-child(4) a.active { background-position: -5px -210px; }
+		}
+
+		a {
+			background: image-url('members-menu-sprite.png') 0 0 no-repeat;
+			color: #22A79C;
+			display: block;
+			padding: 0 10px 0 30px;
+			text-decoration: none;
+			line-height: 30px;
+
+			&.active {
+				background-color: #22A79C;
+				color: #fff;
+			}
+		}
+	}
+}
+
+// ==========================================================================
+
+.member-content {
+	border: 1px solid #E0E0E0;
+	float: left;
+	margin: 0 15px 15px 0;
+	position: relative;
+	width: 178px;
+
+	&:nth-child(4n) { margin-right: 0; }
+
+	a {
+		display: block;
+		height: 100%;
+		top: 0;
+		left: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+	figure {
+		height: 100px;
+		overflow: hidden;
+
+		span {
+			display: table-cell;
+			height: 100px;
+			text-align: center;
+			vertical-align: middle;
+			width: 178px;
+		}
+
+		img {
+			max-height: 100%;
+			max-width: 100%;
+		}
+	}
+
+	header {
+		background-color: #E0E0E0;
+		@include box-sizing(border-box);
+		height: 55px;
+		padding: 10px 5px;
+		overflow: hidden;
+
+		& > div {
+			text-align: center;
+			font-size: 11px;
+			max-height: 3em;
+			overflow: hidden;
+		}
+	}
+}
+
+.pagination-block {
+	font-size: 11px;
+	margin-top: 15px;
+	text-align: right;
+
+	span, select, div, a { display: inline-block; }
+
+	a {
+		background-color: #E0DDDE;
+		color: #666666;
+		text-decoration: none;
+		padding: 0 5px;
+		line-height: 18px;
+
+		&.active {
+			background-color: #22A79C;
+			color: #fff;
+		}
+	}
+
+	.pagination { margin-left: 15px; }
+}
+
+// ==========================================================================
+
+.member-detail-block {
+	margin-top: 20px;
+}
+
+.md-detail {
+	display: none;
+
+	&.md-open { display: block; }
+
+	footer {
+		margin-top: 30px;
+		text-align: right;
+	}
+
+	.member-nav {
+		background: image-url('news-nav.png') 0 0 no-repeat;
+		display: inline-block;
+		height: 19px;
+
+		& { border: none 0; }
+
+		&.prev, &.next { width: 19px; }
+		&.prev { background-position: 0 0; }
+		&.next { background-position: -22px 0; }
+
+		&.return {
+			background-position: -44px 0;
+			width: 39px;
+		}
+	}
+}
+
+.md-header {
+	margin-bottom: 20px;
+
+	figure {
+		border: 1px solid #F2F2F2;
+		float: left;
+		width: 368px;
+
+		span {
+			display: table-cell;
+			height: 223px;
+			text-align: center;
+			vertical-align: middle;
+			width: 368px;
+		}
+	}
+
+	.md-meta {
+		margin-left: 400px;
+
+		h1 {
+			color: #006193;
+			font-size: 22px;
+			font-weight: normal;
+			margin: 0 0 10px;
+		}
+	}
+
+	.md-meta-group {
+		font-size: 14px;
+		margin-bottom: 5px;
+		overflow: hidden;
+
+		&:last-child { margin-bottom: 0; }
+		&, a { color: #4D4D4D; }
+
+		a {
+			text-decoration: none;
+
+			&:hover { text-decoration: underline; }
+		}
+
+		span { display: block; }
+
+		.label {
+			float: left;
+			width: 80px;
+		}
+
+		.value {
+			margin-left: 80px;
+			position: relative;
+			padding-left: 10px;
+
+			&:before {
+				content: ":";
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		}
+	}
+
+
+	.md-meta-footer { margin-top: 20px; }
+
+	.md-meta-btn {
+		background: image-url('member-detail-header-btn.png') 0 0 no-repeat;
+		display: inline-block;
+		height: 19px;
+
+		&.md-product-chinese {
+			background-position: 0 0;
+			width: 62px;
+		}
+		&.md-english {
+			background-position: -69px 0;
+			width: 55px;
+		}
+		&.md-product-english {
+			background-position: 0 -19px;
+			width: 64px;
+		}
+		&.md-chinese {
+			background-position: -71px -19px;
+			width: 56px;
+		}
+	}
+}
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IE HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MODERNIZR HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IMPORTS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MEDIA QUERIES
+//
+// EXAMPLE Media Queries for Responsive Design.
+// Theses examples override the primary ('mobile first') styles.
+// Modify as content requires.
+// ==========================================================================
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+// ==========================================================================
+

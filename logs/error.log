@@ -1,3 +1,98 @@
+<<<<<<< HEAD
+[28-Oct-2013 12:29:56 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:40 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:40 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:48 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:48 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 12:32:48 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:21:12 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:23:16 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:23:19 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:23:19 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:23:19 Asia/Jakarta] PHP Fatal error:  Call to undefined function App\Models\first() in /Library/WebServer/Documents/randl/app/models/Page.php on line 26
+[28-Oct-2013 13:32:55 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to read template file 'wrappers/main'' in /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_resource_file.php:70
+Stack trace:
+#0 /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_resource.php(779): Smarty_Internal_Resource_File->getContent(Object(Smarty_Template_Source))
+#1 /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_compile_extends.php(119): Smarty_Template_Source->__get('content')
+#2 /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Extends->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#3 /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase->callTagCompiler('extends', Array, Array)
+#4 /Library/WebServer/Docu in /Library/WebServer/Documents/randl/library/smarty-3.1.13/libs/sysplugins/smarty_internal_resource_file.php on line 70
+[28-Oct-2013 13:33:12 Asia/Jakarta] PHP Fatal error:  Cannot use object of type App\Models\Page as array in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 13:33:19 Asia/Jakarta] PHP Fatal error:  Cannot use object of type App\Models\Page as array in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:30:42 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /Library/WebServer/Documents/randl/library/activeRecord/ModelQuery.php on line 27
+[28-Oct-2013 14:32:11 Asia/Jakarta] PHP Notice:  Undefined index: id in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:32:11 Asia/Jakarta] PHP Notice:  Undefined index: id in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:32:38 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:32:39 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:32:46 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:32:47 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:34 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:40 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:41 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:42 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:42 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 337
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 237
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 251
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:35:59 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 337
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 236
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 250
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:38:03 Asia/Jakarta] PHP Notice:  Undefined index:  in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+[28-Oct-2013 14:38:05 Asia/Jakarta] PHP Notice:  Array to string conversion in /Library/WebServer/Documents/randl/app/Application.php on line 336
+[28-Oct-2013 14:38:09 Asia/Jakarta] PHP Notice:  Undefined index: en_us in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 44
+[28-Oct-2013 14:38:09 Asia/Jakarta] PHP Notice:  Undefined index: en_us in /Library/WebServer/Documents/randl/app/smarty/templates_c/4ebdb1f4fde58a3b526a4d90a52e946d28acef2c.file.introduction.tpl.php on line 123
+=======
 post: Array
 (
     [value] => <h2>SkullyMVC is not Rails, nor Yii</h2>
@@ -292,3 +387,4 @@ entries after edit: Array
 [21-Oct-2013 08:20:09 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 211
 [21-Oct-2013 08:20:09 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 190
 [21-Oct-2013 08:20:09 Asia/Jakarta] PHP Strict Standards:  Only variables should be passed by reference in /Library/WebServer/Documents/skullyMVC/library/langEditor/LangEditor.php on line 152
+>>>>>>> 8a9f5a6ed59de65fbac517352e3777b371c2737d

@@ -1,0 +1,205 @@
+@import "template";
+
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// DEFAULT
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MAIN CONTAINER
+// ==========================================================================
+
+.container-block {
+	.page-title {
+		background: image-url('contact-title.png') 0 50% no-repeat;
+		padding-left: 140px;
+	}
+}
+
+.content-block {
+	& > .f-left,
+	& > .f-right { width: 45%; }
+
+	// ==========================================================================
+
+	article {
+		color: #808080;
+		line-height: 1.8em;
+
+		h1 {
+			margin: 0 0 5px;
+			font-size: 18px;
+			font-weight: normal;
+		}
+
+		p { margin: 0; }
+	}
+
+	a {
+		color: #808080;
+		text-decoration: none;
+
+		&:hover { text-decoration: underline; }
+	}
+}
+
+// ==========================================================================
+
+.contact-form {
+	header h1 {
+		background: image-url('contact-form-header.png') 0 0 no-repeat;
+		height: 15px;
+		margin: 3px 0 10px;
+	}
+
+	.control-group {
+		margin-bottom: 10px;
+		overflow: hidden;
+
+		label {
+			background: image-url('contact-label.png') 0 0 no-repeat;
+			float: left;
+			height: 15px;
+			margin-top: 4px;
+			width: 45px;
+		}
+
+		& > div {
+			margin-left: 45px;
+
+			&.narrow { width: 50%; }
+		}
+
+		input[type=text],
+		input[type=email],
+		textarea {
+			background: #F0F0F0;
+			@include box-sizing(border-box);
+			border: none;
+			padding: 5px;
+			width: 100%;
+		}
+
+		input[type=text],
+		input[type=email] { height: 25px; }
+
+		textarea {
+			min-height: 150px;
+			resize: vertical;
+		}
+
+		// ==========================================================================
+
+		&:nth-child(1) label { background-position: 0 0; }
+		&:nth-child(2) label { background-position: 0 -32px; }
+		&:nth-child(3) label { background-position: 0 -64px; }
+		&:nth-child(4) label { background-position: 0 -96px; }
+	}
+
+	.button-group {
+		text-align: right;
+
+		input[type=reset],
+		input[type=submit] {
+			background: image-url('contact-buttons.png') 0 0 no-repeat;
+			border: none;
+			cursor: pointer;
+			height: 19px;
+			margin-left: 5px;
+		}
+
+		input[type=reset] {
+			background-position: 0 0;
+			width: 64px;
+		}
+
+		input[type=submit] {
+			background-position: -68px 0;
+			width: 41px;
+		}
+	}
+}
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IE HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MODERNIZR HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IMPORTS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MEDIA QUERIES
+//
+// EXAMPLE Media Queries for Responsive Design.
+// Theses examples override the primary ('mobile first') styles.
+// Modify as content requires.
+// ==========================================================================
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+// ==========================================================================
+

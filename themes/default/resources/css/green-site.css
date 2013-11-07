@@ -1,0 +1,28 @@
+/* line 19, ../scss/green-site.scss */
+.main-header { margin-bottom: 40px; }
+
+/* line 21, ../scss/green-site.scss */
+.header-bg { background: url('../images/greensite-header-bg.jpg?1381641407') 0 0 no-repeat; height: 284px; }
+
+/* line 37, ../scss/green-site.scss */
+.container-block .page-title { background: url('../images/greensite-title.png?1381665832') 0 50% no-repeat; padding-left: 140px; }
+
+/* line 43, ../scss/green-site.scss */
+.content-block { margin: 0 auto; width: 700px; }
+/* line 47, ../scss/green-site.scss */
+.content-block .content { border: 1px solid #E0E0E0; float: left; margin: 0 15px 15px 0; width: 158px; }
+/* line 53, ../scss/green-site.scss */
+.content-block .content:nth-child(4n) { margin-right: 0; }
+/* line 55, ../scss/green-site.scss */
+.content-block .content figure { height: 100px; overflow: hidden; }
+/* line 59, ../scss/green-site.scss */
+.content-block .content figure span { display: table-cell; height: 100px; text-align: center; vertical-align: middle; width: 158px; }
+/* line 67, ../scss/green-site.scss */
+.content-block .content figure img { max-height: 100%; max-width: 100%; }
+/* line 73, ../scss/green-site.scss */
+.content-block .content header { background-color: #E0E0E0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 12px; height: 60px; padding: 5px 10px; overflow: hidden; }
+/* line 81, ../scss/green-site.scss */
+.content-block .content header > span { display: table-cell; height: 50px; text-align: center; vertical-align: middle; width: 138px; }
+
+@media only screen and (min-width: 35em) { /* Style adjustments for viewports that meet the condition */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }

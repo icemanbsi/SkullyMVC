@@ -23,6 +23,9 @@ class ModelQuery {
 		$rs = app()->db->select($this->sql);
 //		errorLog("rs: " . print_r($rs, true));
 //		$object_list = new ModelArray();
+
+		$langFields = call_user_func(array($this->class_name, 'langFields'));
+
 		$object_list = array();
 		// attempt to remove obscure values, but cancelled
 		//$fields_r = explode(',', $className::fieldNames());
@@ -33,6 +36,12 @@ class ModelQuery {
 				}
 			}
 			//eval('$object = new ' . $this->class_name . '($data);');
+
+			//lang fields checking and set to array
+			foreach($langFields as $langField){
+				$data[$langField] = json_decode($data[$langField], true);
+			}
+
 			if($asArray)$object_list[] = $data;
 			else{
 				$object = new $this->class_name();
@@ -55,6 +64,9 @@ class ModelQuery {
 //		// errorLog($this->sql);
 //		// errorLog("after first called, rs is: " . print_r($rs, true));
 //		// errorLog("first sql is " . $this->sql);
+
+		$langFields = call_user_func(array($this->class_name, 'langFields'));
+
 		if (!empty($rs)) {
 			if(!$asArray) $object = new $this->class_name();
 			foreach($rs[0] as $key => $value) {
@@ -64,9 +76,17 @@ class ModelQuery {
 				if(!$asArray) $object->attributes[$key] =stripslashes($value);
 			}
 			if($asArray) {
+				//lang fields checking and set to array
+				foreach($langFields as $langField){
+					$rs[0][$langField] = json_decode($rs[0][$langField], true);
+				}
 				return $rs[0];
 			}
 			else {
+				//lang fields checking and set to array
+				foreach($langFields as $langField){
+					$object->attributes[$langField] = json_decode($object->attributes[$langField], true);
+				}
 				$object->newRecord = false;
 				$object->storedAttributes = $object->attributes;
 //			// errorLog("object is " . print_r($object, true));

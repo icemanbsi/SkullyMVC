@@ -7,19 +7,19 @@
  */
 namespace App\Controllers;
 class PagesController extends BaseController {
-	public function home() {
-		$this->params['page'] = 'pages/home.tpl';
-		$this->view();
-	}
-
 	public function view() {
 		$page = 'index';
 		if (!empty($this->params['page'])) {
 			$page = $this->params['page'];
 		}
-		if( !$this->smarty()->templateExists($page) ){
-			$page = 'notFound';
-		}
-		$this->render($page);
+
+		$data = \App\Models\Page::model()->getPage($page, true);
+		if(!$data)
+			$template = "notFound";
+		else $template = "page";
+
+		$this->render($template, array(
+			"page" => $data
+		));
 	}
 }

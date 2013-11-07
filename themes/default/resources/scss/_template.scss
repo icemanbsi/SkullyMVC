@@ -1,0 +1,66 @@
+@import "compass/reset/utilities";
+@import "compass/utilities";
+@import "compass/css3";
+@import "compass/layout";
+
+// =================== FUNCTIONS =======================
+
+//IE 7 Only, use: @include ie7('width', 0px);
+@mixin ie7($property, $value){
+	*#{$property}: $value;
+}
+
+//IE 8 Only, use: @include ie8('width', 0px);
+@mixin ie8($property, $value){
+	#{$property}:($value)+\9;
+}
+
+//Reset UL
+@mixin reset-ul($id: "", $class: "", $children: false){
+	$selector: 'ul';
+	$id_property: '#';
+	$class_property: '.';
+
+	@if $id != "" {
+
+		@if $class != "" { $selector: #{$selector}#{$id_property}#{$id}#{$class_property}#{$class}; } @else { $selector: #{$selector}#{$id_property}#{$id} }
+
+	}@elseif $class != "" {
+
+		$selector: #{$selector}#{$class_property}#{$class};
+
+	}
+
+	@if $children {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+		}
+	} @else {
+		#{$selector} {
+			margin: 0;
+			padding: 0;
+
+			li {
+				list-style: none;
+			}
+		}
+	}
+
+}
+
+// ======================================================
+
+
+
+
+// =================== VARIABLES =======================
+
+//images path, use: #{$image_path}
+$image_path: 'images/';
+
+$global-wrapper-width: 980px;
+
+// =======================================================

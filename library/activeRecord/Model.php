@@ -23,6 +23,29 @@ class Model extends ActiveRecord {
 	var $errors = array(); // array of array('attribute' => attribute_name, 'message' => error_message) or just error message
 	var $newRecord = true; // true if not stored in database
 
+	// Running this method will turn language fields json into array.
+	public function setupGetLangFields() {
+		$langFields = $this->langFields();
+		if(!empty($langFields)){
+			foreach($langFields as $langField) {
+				$this->attributes[$langField] = json_decode(stripslashes($this->attributes[$langField]), true);
+			}
+		}
+	}
+
+	// Running this method will turn language field arrays into json.
+	protected function setupSetLangFields() {
+		$langFields = $this->langFields();
+		if(!empty($langFields)){
+			foreach($langFields as $langField) {
+				$this->attributes[$langField] = addslashes(json_encode($this->attributes[$langField]));
+			}
+		}
+	}
+
+	public static function langFields() {
+		return array();
+	}
 	// If params is false means this method was called when model() method called.
 	// All inherited methods must have "if ($params !== false)".
 	function __construct($params = array(), $force = false) {
@@ -35,6 +58,7 @@ class Model extends ActiveRecord {
 			}
 			$this->setAttributes($this->defaultAttributes(), true);
 			$this->setAttributes($params, $force);
+			$this->setupGetLangFields();
 		}
 	}
 
@@ -283,6 +307,7 @@ class Model extends ActiveRecord {
 				$this->beforeUpdate();
 			}
 
+			$this->setupSetLangFields();
 			$this->beforeSave();
 
 			if (count($this->errors) == 0 || $on_error == self::_IGNORE) {
@@ -356,6 +381,7 @@ class Model extends ActiveRecord {
 					$this->afterUpdate($oldMe);
 				}
 				$this->saveAssociatedModels();
+				$this->setupGetLangFields();
 				$this->afterSave($oldMe);
 			}
 			else {

@@ -1,0 +1,155 @@
+@import "template";
+
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// DEFAULT
+// ==========================================================================
+
+.main-header { margin-bottom: 40px; }
+
+.header-bg {
+	background: image-url('greensite-header-bg.jpg') 0 0 no-repeat;
+	height: 284px;
+}
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MAIN CONTAINER
+// ==========================================================================
+
+.container-block {
+	.page-title {
+		background: image-url('greensite-title.png') 0 50% no-repeat;
+		padding-left: 140px;
+	}
+}
+
+.content-block {
+	margin: 0 auto;
+	width: 700px;
+
+	.content {
+		border: 1px solid #E0E0E0;
+		float: left;
+		margin: 0 15px 15px 0;
+		width: 158px;
+
+		&:nth-child(4n) { margin-right: 0; }
+
+		figure {
+			height: 100px;
+			overflow: hidden;
+
+			span {
+				display: table-cell;
+				height: 100px;
+				text-align: center;
+				vertical-align: middle;
+				width: 158px;
+			}
+
+			img {
+				max-height: 100%;
+				max-width: 100%;
+			}
+		}
+
+		header {
+			background-color: #E0E0E0;
+			@include box-sizing(border-box);
+			font-size: 12px;
+			height: 60px;
+			padding: 5px 10px;
+			overflow: hidden;
+
+			& > span {
+				display: table-cell;
+				height: 50px;
+				text-align: center;
+				vertical-align: middle;
+				width: 138px;
+			}
+		}
+	}
+}
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IE HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MODERNIZR HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IMPORTS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MEDIA QUERIES
+//
+// EXAMPLE Media Queries for Responsive Design.
+// Theses examples override the primary ('mobile first') styles.
+// Modify as content requires.
+// ==========================================================================
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+// ==========================================================================
+

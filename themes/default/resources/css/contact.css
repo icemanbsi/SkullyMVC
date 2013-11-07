@@ -1,0 +1,51 @@
+/* line 32, ../scss/contact.scss */
+.container-block .page-title { background: url('../images/contact-title.png?1381675497') 0 50% no-repeat; padding-left: 140px; }
+
+/* line 40, ../scss/contact.scss */
+.content-block > .f-left, .content-block > .f-right { width: 45%; }
+/* line 44, ../scss/contact.scss */
+.content-block article { color: #808080; line-height: 1.8em; }
+/* line 48, ../scss/contact.scss */
+.content-block article h1 { margin: 0 0 5px; font-size: 18px; font-weight: normal; }
+/* line 54, ../scss/contact.scss */
+.content-block article p { margin: 0; }
+/* line 57, ../scss/contact.scss */
+.content-block a { color: #808080; text-decoration: none; }
+/* line 61, ../scss/contact.scss */
+.content-block a:hover { text-decoration: underline; }
+
+/* line 68, ../scss/contact.scss */
+.contact-form header h1 { background: url('../images/contact-form-header.png?1381676475') 0 0 no-repeat; height: 15px; margin: 3px 0 10px; }
+/* line 74, ../scss/contact.scss */
+.contact-form .control-group { margin-bottom: 10px; overflow: hidden; }
+/* line 78, ../scss/contact.scss */
+.contact-form .control-group label { background: url('../images/contact-label.png?1381676578') 0 0 no-repeat; float: left; height: 15px; margin-top: 4px; width: 45px; }
+/* line 86, ../scss/contact.scss */
+.contact-form .control-group > div { margin-left: 45px; }
+/* line 89, ../scss/contact.scss */
+.contact-form .control-group > div.narrow { width: 50%; }
+/* line 94, ../scss/contact.scss */
+.contact-form .control-group input[type=text], .contact-form .control-group input[type=email], .contact-form .control-group textarea { background: #F0F0F0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: none; padding: 5px; width: 100%; }
+/* line 103, ../scss/contact.scss */
+.contact-form .control-group input[type=text], .contact-form .control-group input[type=email] { height: 25px; }
+/* line 105, ../scss/contact.scss */
+.contact-form .control-group textarea { min-height: 150px; resize: vertical; }
+/* line 112, ../scss/contact.scss */
+.contact-form .control-group:nth-child(1) label { background-position: 0 0; }
+/* line 113, ../scss/contact.scss */
+.contact-form .control-group:nth-child(2) label { background-position: 0 -32px; }
+/* line 114, ../scss/contact.scss */
+.contact-form .control-group:nth-child(3) label { background-position: 0 -64px; }
+/* line 115, ../scss/contact.scss */
+.contact-form .control-group:nth-child(4) label { background-position: 0 -96px; }
+/* line 118, ../scss/contact.scss */
+.contact-form .button-group { text-align: right; }
+/* line 122, ../scss/contact.scss */
+.contact-form .button-group input[type=reset], .contact-form .button-group input[type=submit] { background: url('../images/contact-buttons.png?1381676316') 0 0 no-repeat; border: none; cursor: pointer; height: 19px; margin-left: 5px; }
+/* line 130, ../scss/contact.scss */
+.contact-form .button-group input[type=reset] { background-position: 0 0; width: 64px; }
+/* line 135, ../scss/contact.scss */
+.contact-form .button-group input[type=submit] { background-position: -68px 0; width: 41px; }
+
+@media only screen and (min-width: 35em) { /* Style adjustments for viewports that meet the condition */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }

@@ -1,0 +1,296 @@
+@import "template";
+
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// DEFAULT
+// ==========================================================================
+
+.main-header { margin-bottom: 40px; }
+
+.header-bg {
+	background: image-url('news-header-bg.jpg') 0 0 no-repeat;
+	height: 285px;
+}
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MAIN CONTAINER
+// ==========================================================================
+
+.container-block {
+	& > header { margin-bottom: 15px; }
+
+	.page-title {
+		background: image-url('news-title.png') 0 50% no-repeat;
+		padding-left: 140px;
+		margin-bottom: 10px;
+	}
+
+	.news-nav {
+		border-top: 1px solid #22A79C;
+		border-bottom: 1px solid #22A79C;
+
+		li { float: left; }
+
+		a {
+			background: image-url('news-bullet.png') 0 -100% no-repeat;
+			color: #22A79C;
+			display: block;
+			padding: 0 10px 0 30px;
+			text-decoration: none;
+			line-height: 30px;
+
+			&.active {
+				background-position: 10px 50%;
+				background-color: #22A79C;
+				color: #fff;
+			}
+		}
+	}
+}
+
+// ==========================================================================
+
+.news-lists {
+	font-size: 14px;
+
+	li {
+		border-bottom: 1px solid #E6E6E6;
+
+		&:last-child { border-bottom: none 0; }
+	}
+
+	a {
+		color: #333;
+		display: block;
+		font-size: 12px;
+		padding: 0 10px;
+		text-decoration: none;
+		line-height: 30px;
+
+		&:hover, &:focus, &:active { color: #22A79C; }
+	}
+
+	span.date {
+		float: left;
+		width: 100px;
+	}
+
+	span.title {
+		display: block;
+		margin-left: 100px;
+	}
+}
+
+// ==========================================================================
+
+.news-detail {
+	padding: 0 47px;
+
+	figure { margin-bottom: 20px; }
+
+	header {
+		margin-bottom: 20px;
+
+		h1 {
+			color: #22A79C;
+			font-size: 20px;
+			font-weight: normal;
+			margin: 0;
+		}
+
+		small {
+			color: #808080;
+			display: block;
+			font-size: 12px;
+		}
+	}
+
+	article.text article {
+		margin-bottom: 20px;
+
+		&:last-child { margin-bottom: 0; }
+	}
+
+	footer {
+		margin-top: 30px;
+		text-align: right;
+	}
+
+	// ==========================================================================
+
+	.news-nav {
+		background: image-url('news-nav.png') 0 0 no-repeat;
+		display: inline-block;
+		height: 19px;
+
+		& { border: none 0; }
+
+		&.prev, &.next { width: 19px; }
+		&.prev { background-position: 0 0; }
+		&.next { background-position: -22px 0; }
+
+		&.return {
+			background-position: -44px 0;
+			width: 39px;
+		}
+	}
+}
+
+// ==========================================================================
+
+.related-news {
+	margin-top: 10px;
+
+	header {
+		margin-bottom: 10px;
+
+		h2 {
+			color: #22A79C;
+			font-size: 16px;
+			font-weight: normal;
+			margin: 0;
+		}
+	}
+
+	.rn-list-block { position: relative; }
+	.rn-list {
+		overflow: hidden;
+
+		ul { width: 6555px; }
+
+		li {
+			float: left;
+			margin-right: 15px;
+			width: 165px;
+
+			&:last-child { margin-right: 0; }
+		}
+
+		a { text-decoration: none; }
+	}
+
+	figure {
+		margin: 0;
+
+		span.img {
+			height: 84px;
+			overflow: hidden;
+			width: 165px;
+		}
+
+		figcaption {
+			background-color: #E4E4E4;
+			@include box-sizing(border-box);
+			color: #333333;
+			font-size: 12px;
+			text-align: center;
+			height: 30px;
+			padding: 5px;
+			overflow: hidden;
+		}
+	}
+
+	// ==========================================================================
+
+	.rn-pagination {
+		background: image-url('related-news-pagination.png') 0 0 no-repeat;
+		display: block;
+		cursor: pointer;
+		height: 33px;
+		position: absolute;
+		top: 50%;
+		margin-top: -15px;
+		width: 14px;
+
+		&.rn-prev {
+			background-position: 0 0;
+			left: -30px;
+		}
+		&.rn-next {
+			background-position: 0 -33px;
+			right: -30px;
+		}
+	}
+}
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IE HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MODERNIZR HACKS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// IMPORTS
+// ==========================================================================
+
+
+
+// ==========================================================================
+
+
+
+
+
+// ==========================================================================
+// MEDIA QUERIES
+//
+// EXAMPLE Media Queries for Responsive Design.
+// Theses examples override the primary ('mobile first') styles.
+// Modify as content requires.
+// ==========================================================================
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+// ==========================================================================
+
